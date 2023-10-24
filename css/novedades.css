@@ -106,6 +106,13 @@
     background-repeat: no-repeat;
 }
 
+.background-teisa {
+    height: 40vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/backgrounds/background-teisa.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .title-home {
     color: #fff;
     font-size: 22px;
@@ -118,6 +125,27 @@
     margin-left: 25rem;
 }
 
+.title-teisa {
+    color: #EB7221;
+    font-size: 22px;
+    position: relative;
+}
+
+.title-teisa h1 {
+    transform: translateY(5rem);
+    position: relative;
+    margin-left: 25rem;
+    margin-bottom: 1rem;
+}
+
+.title-teisa h2 {
+    transform: translateY(5rem);
+    position: relative;
+    margin-left: 25rem;
+    color: #fff;
+    font-weight: normal;
+}
+
 .novedades-title {
     color: #484848;
     font-size: 30px;
@@ -126,6 +154,79 @@
     margin-left: 20vw;
     margin-top: 5rem;
     margin-bottom: 5rem;
+}
+
+.teisa {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+.novedades-text {
+    color: #484848;
+    font-size: 30px;
+    font-weight: 400;
+    width: 60vw;
+    margin-left: 20vw;
+    margin-top: 3rem;
+}
+
+.frase {
+    color: #EB7221;
+    font-weight: 700;
+}
+
+.title-size {
+    font-size: 42px;
+}
+
+.teisa-img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 66.3vh;
+}
+
+.teisa-novedades {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+.teisa-card {
+    width: 25vw;
+    height: 43vh;
+    background-size: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.teisa-card h5 {
+    color: #fff;
+    font-size: 22px;
+    margin-top: 55%;
+    width: 15vw;
+    margin-left: 2rem;
+}
+
+.teisa-card p {
+    color: #e5e5e5;
+    font-size: 18px;
+    width: 20vw;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.card-1 {
+    background-image: url(../img/novedades/card1.png);
+}
+
+.card-2 {
+    background-image: url(../img/novedades/card2.png);
+}
+
+.card-3 {
+    background-image: url(../img/novedades/card3.png);
 }
 
 .cards-novedades {

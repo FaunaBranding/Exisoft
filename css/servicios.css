@@ -106,6 +106,19 @@
     background-repeat: no-repeat;
 }
 
+.background-modernizacion {
+    height: 40vh;
+    background-image: url("../img/backgrounds/modernizacion.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu-dark {
+    color: #000;
+    position: relative;
+    top: 0.25rem;
+}
+
 .title-home {
     color: #fff;
     font-size: 22px;
@@ -135,7 +148,7 @@
 .conoce {
     background-color: #EB7221;
     padding-top: 5rem;
-    padding-bottom: 7rem;
+    padding-bottom: 3rem;
 }
 
 .title-conoce {
@@ -147,10 +160,24 @@
 }
 
 .card-conoce {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    display: flex;
     justify-content: center;
-    gap: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 12vw;
+}
+
+.conoce-button {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    background-color: #0056D5;
+    position: relative;
+    bottom: -23rem;
+    right: 20rem;
+    height: 6vh;
+    border-radius: 5rem;
 }
 
 .marcas-title {
@@ -166,6 +193,15 @@
     justify-content: center;
     gap: 5vw;
     margin-bottom: 4rem;
+}
+
+.servicios-img {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.servicios-author {
+    width: 100%;
 }
 
 .bgc-footer {

@@ -113,6 +113,13 @@
     background-repeat: no-repeat;
 }
 
+.background-sancor {
+    height: 60vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/backgrounds/background-sancor.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .title-home {
     color: #fff;
     font-size: 22px;
@@ -250,6 +257,10 @@
     color: #EB7221;
 }
 
+.title-info {
+    width: 40vw;
+}
+
 .info h3 {
     color: #EB7221;
     font-weight: 600;
@@ -301,4 +312,35 @@
     padding-left: 1.5rem;
     margin-bottom: 2rem;
     width: 15vw;
+}
+
+.sancor-card {
+    background-color: #484848;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.volver {
+    display: flex;
+    justify-content: center;
+    background-color: #EB7221;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.volver a {
+    color: #fff;
+    border: solid 1px #fff;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    text-decoration: none;
+    font-size: 11px;
+    border-radius: 5rem;
+}
+
+.casos-text a {
+    text-decoration: none;
+}
+
+.mb2 {
+    margin-bottom: 3rem;
 }

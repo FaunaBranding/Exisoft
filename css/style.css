@@ -189,10 +189,42 @@
     font-weight: 700;
 }
 
-.casos-home {
+.slider {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+  }
+
+  .casos-home-sancor,
+  .casos-home-pampa {
+    flex-shrink: 0;
+    width: 100%;
+    transition: transform 2s ease;
+  }
+
+  .casos-home-sancor {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/backgrounds/sancor.png");
-    height: 50vh;
-}
+    height: 55vh;
+    background-size: cover;
+  }
+
+  .casos-home-pampa {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/backgrounds/pampa.png");
+    height: 55vh;
+    background-size: cover;
+  }
+
+  .inactive-left {
+    transform: translateX(0%);
+  }
+
+  .inactive-right {
+    transform: translateX(-100%);
+  }
+
+  .mt {
+    margin-top: 5rem;
+  }
 
 .title-casos {
     font-weight: 700;
@@ -252,6 +284,7 @@
     margin-bottom: 5rem;
     border-radius: 5px;
     box-shadow: 0 3px 5px #999;
+    cursor: pointer;
 }
 
 .date-card-nov {

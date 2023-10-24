@@ -139,7 +139,6 @@
 
 .img-equipo {
     width: 33vw;
-    height: 60vh;
 }
 
 .title-card-equipo {
@@ -179,7 +178,7 @@
 .frase {
     background-color: #EB7221;
     margin-top: -3px;
-    padding-top: 5rem;
+    padding-top: 3rem;
     padding-bottom: 3rem;
 }
 
@@ -231,8 +230,35 @@
     padding-bottom: 3rem;
 }
 
-.carrousel-img {
-    width: 99.14vw;
+
+.carrousel {
+    background-image: url(../img/carousel-equipo/1.png);
+    background-size: cover;
+    animation: animate 15s infinite;
+    height: 66vh;
+}
+
+@keyframes animate {
+    20% {
+        background-image: url(../img/carousel-equipo/5.png);
+        background-size: cover;
+    }
+    40% {
+        background-image: url(../img/carousel-equipo/4.png);
+        background-size: cover;
+    }
+    60% {
+        background-image: url(../img/carousel-equipo/3.png);
+        background-size: cover;
+    }
+    80% {
+        background-image: url(../img/carousel-equipo/2.png);
+        background-size: cover;
+    }
+    100% {
+        background-image: url(../img/carousel-equipo/1.png);
+        background-size: cover;
+    }
 }
 
 .sumate {

@@ -26,6 +26,33 @@ cerrar.addEventListener("click", () => {
 })
 
 document.addEventListener('DOMContentLoaded', function () {
+    const slider = document.querySelector('.slider');
+    const slides = Array.from(slider.children);
+    let currentSlide = 0;
+
+    function showSlide(index) {
+      slides.forEach((slide, ind) => {
+        if (ind === index) {
+          slide.classList.remove('inactive-left', 'inactive-right');
+        } else if (ind < index) {
+          slide.classList.remove('inactive-right');
+          slide.classList.add('inactive-left');
+        } else {
+          slide.classList.remove('inactive-left');
+          slide.classList.add('inactive-right');
+        }
+      });
+    }
+
+    function nextSlide() {
+      currentSlide = (currentSlide + 1) % slides.length;
+      showSlide(currentSlide);
+    }
+
+    setInterval(nextSlide, 5000);
+  });
+
+document.addEventListener('DOMContentLoaded', function () {
     const inputFile = document.getElementById('archivoInput');
     const sumateArchivoBtn = document.getElementById('sumateArchivoBtn');
     const sumateForm = document.getElementById('sumateForm');
@@ -50,9 +77,13 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 document.getElementById("pampa").addEventListener("click", function () {
-    window.open("./casos/pampa.html", '_blank');
+    window.open("./casos/pampa.html");
 });
 
 document.getElementById("sancor").addEventListener("click", function () {
-    window.open("./casos/sancor.html", '_blank');
+    window.open("./casos/sancor.html");
 });
+
+function redireccionar() {
+  window.location.href = './pages/novedades/teisa.html';
+}
