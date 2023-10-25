@@ -76,6 +76,34 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+const btn = document.getElementById('button');
+
+document.getElementById('sumate-form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   btn.value = 'Enviando...';
+
+   const serviceID = 'default_service';
+   const templateID = 'template_pateon4';
+
+   const form = this;
+   const formData = new FormData(form);
+   const archivoInput = document.getElementById('archivoInput');
+
+   if (archivoInput.files.length > 0) {
+       formData.append('archivo', archivoInput.files[0]);
+   }
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = '¡Correo Enviado!';
+    }, (err) => {
+      btn.value = '¡Correo Enviado!';
+      alert(JSON.stringify(err));
+    });
+});
+
 document.getElementById("pampa").addEventListener("click", function () {
     window.open("./casos/pampa.html");
 });

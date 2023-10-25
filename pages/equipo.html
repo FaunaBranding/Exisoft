@@ -114,14 +114,14 @@
                 <h3 class="sumate-title">Sumate a nuestro equipo</h3>
                 <p class="sumate-text">Sé parte de un equipo multidisciplinario de alta expertise tecnológica.</p>
                 <p class="sumate-text">Si quieres ser parte del cambio y proponer soluciones innovadoras, <b>dejanos tu CV.</b></p>
-                <form class="sumate-form">
-                    <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                <form id="sumate-form" class="sumate-form">
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
                     <br>
-                    <input type="email" name="email" id="email" placeholder="Email">
+                    <input type="email" name="email" id="email" placeholder="Email" required>
                     <div>
-                        <button class="sumate-archivo" id="sumateArchivoBtn">Subí un archivo</button>
+                        <button class="sumate-archivo" name="cv" id="sumateArchivoBtn">Subí un archivo</button>
                         <input type="file" id="archivoInput" style="display:none"/>
-                        <button class="sumate-enviar">ENVIAR</button>
+                        <input id="button" type="submit" value="ENVIAR" class="sumate-enviar"></input>
                     </div>
                 </form>
             </div>
@@ -159,6 +159,12 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('N70OJtWomJrbKzM7R')
+</script>
     <script src="../js/script.js"></script>
 </body>
 </html>

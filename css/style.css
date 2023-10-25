@@ -403,11 +403,12 @@
     }
 
     .title-home {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .p1-home p {
         width: 60vw;
+        font-size: 1.5rem;
     }
 
     .p1-home {
@@ -416,6 +417,7 @@
 
     .p-servicios-home {
         width: 60vw;
+        font-size: 1.5rem;
     }
 
     .servicios-cards {
@@ -428,6 +430,7 @@
 
     .text-casos {
         width: 50vw;
+        font-size: 1.5rem;
     }
 
     .casos-home-pampa,

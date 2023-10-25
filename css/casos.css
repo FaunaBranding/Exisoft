@@ -167,6 +167,7 @@
 
 .t2 {
     font-size: 32px;
+    margin-bottom: 3rem;
 }
 
 .button-card {
@@ -177,7 +178,6 @@
     font-weight: 700;
     padding: 0.5rem 2.5rem 0.5rem 2.5rem;
     border-radius: 3rem;
-    margin-top: 3rem;
     cursor: pointer;
 }
 
