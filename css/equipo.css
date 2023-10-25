@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+*::selection {
+    background-color: #EB7221;
+}
+
 .overflow {
     overflow: hidden;
 }
@@ -118,27 +122,29 @@
     margin-left: 25rem;
 }
 
-.text-equipo {
-    display: flex;
-    justify-content: center;
-    margin-top: 5rem;
-    margin-bottom: 2rem;
-}
-
 .p-equipo {
     font-size: 30px;
     color: #484848;
-    margin-left: 20vw;
-    margin-right: 25vw;
+    width: 50vw;
+    margin-left: 20%;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
 }
 
 .equipo {
     display: flex;
-    justify-content: center;
 }
 
-.img-equipo {
-    width: 33vw;
+.img-card-1 {
+    width: 652px;
+}
+
+.img-card-2 {
+    width: 650px;
+}
+
+.img-card-3 {
+    width: 600px;
 }
 
 .title-card-equipo {
@@ -186,13 +192,14 @@
     font-weight: 700;
     font-size: 2rem;
     color: #fff;
-    margin-left: 20vw;
+    margin-left: 20%;
+    width: 50vw;
 }
 
 .exi-frase {
     font-weight: 300;
     color: #fff;
-    margin-left: 20vw;
+    margin-left: 20%;
     padding-top: 2rem;
     font-size: 1.2rem;
 }
@@ -202,7 +209,7 @@
 }
 
 .nuestro-title {
-    margin-left: 20vw;
+    margin-left: 20%;
     font-size: 42px;
     font-weight: 700;
     color: #EB7221;
@@ -212,7 +219,7 @@
 .nuestro-text {
     font-size: 30px;
     font-weight: normal;
-    margin-left: 20vw;
+    margin-left: 20%;
     margin-right: 25vw;
 }
 
@@ -270,20 +277,20 @@
 .sumate-title {
     color: #EB7221;
     font-size: 2.5rem;
-    margin-left: 20vw;
+    margin-left: 20%;
     padding-top: 5rem;
     padding-bottom: 2rem;
 }
 
 .sumate-text {
     color: #484848;
-    margin-left: 20vw;
+    margin-left: 20%;
     font-size: 1.7rem;
     font-weight: 500;
 }
 
 .sumate-form {
-    margin-left: 20vw;
+    margin-left: 20%;
     margin-top: 2rem;
 }
 
@@ -294,11 +301,12 @@
     padding: 0.5rem;
     width: 40vw;
     font-size: 1rem;
+    color: #fff;
 }
 
 #nombre::placeholder {
     color: #d6d6d6;
-    padding-left: 1rem;
+    padding-left: 0.5rem;
 }
 
 #email {
@@ -310,11 +318,12 @@
     font-size: 1rem;
     margin-top: 1.5rem;
     margin-bottom: 5rem;
+    color: #fff;
 }
 
 #email::placeholder {
     color: #d6d6d6;
-    padding-left: 1rem;
+    padding-left: 0.5rem;
 }
 
 .sumate-archivo {
@@ -369,4 +378,105 @@
     display: flex;
     justify-content: space-around;
     margin-top: 3rem;
+}
+
+@media (max-width:1440px) {
+
+    .nav-list {
+        padding-top: 8rem;
+    }
+
+    .contacto-button {
+        font-size: 12px;
+        font-weight: 700;
+        background: #0056D5;
+        padding: 0.3rem 1.5rem 0.3rem 1.5rem;
+        border-radius: 20px;
+        margin-left: 72vw;
+    }
+
+    .cerrar-menu {
+    top: -6.5rem;
+    left: 2rem;
+    font-size: 2rem;
+}
+
+    .title-home h1 {
+        transform: translateY(5vh);
+        margin-left: 20%;
+    }
+
+    .title-home {
+        font-size: 20px;
+    }
+
+    .p-equipo {
+        width: 60vw;
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+
+    .img-card-1 {
+        width: 100%;
+    }
+    
+    .img-card-2 {
+        width: 100%;
+    }
+    
+    .img-card-3 {
+        width: 100%;
+    }
+
+    .img-equipo2 {
+        width: 100%;
+        margin-top: -6rem;
+    }
+
+    .nombre-equipo {
+        top: 5rem;
+    }
+
+    .title-frase {
+        width: 60vw;
+        font-size: 1.75rem;
+    }
+
+    .exi-frase {
+        font-size: 1rem;
+    }
+
+    .nuestro-title {
+        font-size: 2.5rem;
+    }
+
+    .nuestro-text {
+        font-size: 1.5rem;
+    }
+
+    .fotos-equipo img {
+        width: 15rem;
+    }
+
+    .carrousel {
+        height: 60vh;
+        width: 100%;
+    }
+
+    .sumate-text {
+        width: 80%;
+        font-size: 1.5rem;
+    }
+
+    #email, #nombre {
+        width: 60%;
+    }
+
+    .img-footer {
+        height: 2rem;
+    }
+
+    .footer {
+        padding-right: 20%;
+    }
 }

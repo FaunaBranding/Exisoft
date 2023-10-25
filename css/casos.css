@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+*::selection {
+    background-color: #EB7221;
+}
+
 .overflow {
     overflow: hidden;
 }
@@ -343,4 +347,57 @@
 
 .mb2 {
     margin-bottom: 3rem;
+}
+
+@media (max-width:1440px) {
+    .nav-list {
+        padding-top: 8rem;
+    }
+
+    .contacto-button {
+        font-size: 12px;
+        font-weight: 700;
+        background: #0056D5;
+        padding: 0.3rem 1.5rem 0.3rem 1.5rem;
+        border-radius: 20px;
+        margin-left: 72vw;
+    }
+
+    .cerrar-menu {
+    top: -6.5rem;
+    left: 2rem;
+    font-size: 2rem;
+}
+
+    .title-home h1 {
+        transform: translateY(5vh);
+        margin-left: 20%;
+    }
+
+    .title-home {
+        font-size: 20px;
+    }
+
+    .casos-card {
+        width: 80vw;
+        margin-left: 10%;
+    }
+
+    .casos-card2 {
+        width: 80vw;
+        margin-left: 10%;
+        gap: 7rem;
+    }
+
+    .marcas-title {
+        font-size: 2rem;
+    }
+
+    .img-footer {
+        height: 2rem;
+    }
+
+    .footer {
+        padding-right: 20%;
+    }
 }

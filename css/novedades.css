@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+*::selection {
+    background-color: #EB7221;
+}
+
 .overflow {
     overflow: hidden;
 }
@@ -183,7 +187,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 66.3vh;
+    height: 66.9vh;
 }
 
 .teisa-novedades {
@@ -242,6 +246,7 @@
     margin-bottom: 5rem;
     border-radius: 5px;
     box-shadow: 0 3px 5px #999;
+    cursor: pointer;
 }
 
 .date-card-nov {
@@ -295,4 +300,70 @@
     display: flex;
     justify-content: space-around;
     margin-top: 3rem;
+}
+
+@media (max-width:1440px) {
+    .nav-list {
+        padding-top: 8rem;
+    }
+
+    .contacto-button {
+        font-size: 12px;
+        font-weight: 700;
+        background: #0056D5;
+        padding: 0.3rem 1.5rem 0.3rem 1.5rem;
+        border-radius: 20px;
+        margin-left: 72vw;
+    }
+
+    .cerrar-menu {
+    top: -6.5rem;
+    left: 2rem;
+    font-size: 2rem;
+}
+
+    .title-home h1 {
+        transform: translateY(5vh);
+        margin-left: 20%;
+    }
+
+    .title-home {
+        font-size: 20px;
+    }
+
+    .title-teisa h1 {
+        transform: translateY(5rem);
+        position: relative;
+        margin-left: 20%;
+        margin-bottom: 1rem;
+    }
+    
+    .title-teisa h2 {
+        transform: translateY(5rem);
+        position: relative;
+        margin-left: 20%;
+        color: #fff;
+        font-weight: normal;
+        font-size: 1.8rem;
+    }
+
+    .teisa-img {
+        height: 50vh;
+    }
+
+    .hidden-responsive {
+        display: none;
+    }
+
+    .img-footer {
+        height: 2rem;
+    }
+
+    .footer {
+        padding-right: 20%;
+    }
+
+    .teisa-card h5 {
+        font-size: 1.2rem;
+    }
 }

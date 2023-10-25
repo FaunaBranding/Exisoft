@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+*::selection {
+    background-color: #EB7221;
+}
+
 .overflow {
     overflow: hidden;
 }
@@ -336,7 +340,7 @@
 
 .marcas-home {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-bottom: 4rem;
 }
 
@@ -372,7 +376,7 @@
     margin-top: 3rem;
 }
 
-@media (max-width:1400px) {
+@media (max-width:1440px) {
 
     .nav-list {
         padding-top: 8rem;

@@ -84,6 +84,21 @@ document.getElementById("sancor").addEventListener("click", function () {
     window.open("./casos/sancor.html");
 });
 
-function redireccionar() {
+function teisa() {
   window.location.href = './pages/novedades/teisa.html';
+}
+
+function teisanov() {
+  window.location.href = './novedades/teisa.html';
+}
+
+function toggleTexto(element) {
+  var texto = element.parentElement.parentElement.querySelector('.texto');
+  if (texto.style.display === "none") {
+      texto.style.display = "block";
+      element.innerText = "▲";
+  } else {
+      texto.style.display = "none";
+      element.innerText = "▼";
+  }
 }

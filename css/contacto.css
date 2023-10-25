@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+*::selection {
+    background-color: #EB7221;
+}
+
 .overflow {
     overflow: hidden;
 }
@@ -237,4 +241,42 @@
     display: flex;
     justify-content: space-around;
     margin-top: 3rem;
+}
+
+@media (max-width:1440px) {
+    .nav-list {
+        padding-top: 8rem;
+    }
+
+    .contacto-button {
+        font-size: 12px;
+        font-weight: 700;
+        background: #0056D5;
+        padding: 0.3rem 1.5rem 0.3rem 1.5rem;
+        border-radius: 20px;
+        margin-left: 72vw;
+    }
+
+    .cerrar-menu {
+    top: -6.5rem;
+    left: 2rem;
+    font-size: 2rem;
+}
+
+    .title-home h1 {
+        transform: translateY(5vh);
+        margin-left: 15%;
+    }
+
+    .title-home {
+        font-size: 20px;
+    }
+
+    .img-footer {
+        height: 2rem;
+    }
+
+    .footer {
+        padding-right: 20%;
+    }
 }

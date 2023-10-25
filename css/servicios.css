@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+*::selection {
+    background-color: #EB7221;
+}
+
 .overflow {
     overflow: hidden;
 }
@@ -113,6 +117,20 @@
     background-repeat: no-repeat;
 }
 
+.background-integracion {
+    height: 50vh;
+    background-image: url("../img/backgrounds/integracion.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-automatizacion {
+    height: 40vh;
+    background-image: url("../img/backgrounds/modernizacion.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .menu-dark {
     color: #000;
     position: relative;
@@ -175,7 +193,7 @@
     background-color: #0056D5;
     position: relative;
     bottom: -23rem;
-    right: 20rem;
+    right: 20%;
     height: 6vh;
     border-radius: 5rem;
 }
@@ -202,6 +220,135 @@
 
 .servicios-author {
     width: 100%;
+}
+
+.recursos {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.recursos p {
+    font-size: 30px;
+    width: 35vw;
+}
+
+.servicios-hr {
+    width: 20%;
+    height: 2px;
+    margin-top: 3vh;
+    border: solid 2px #EB7221;
+}
+
+.servicios-title {
+    color: #EB7221;
+    margin-left: 20%;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 5rem;
+}
+
+.servicios-desplegables {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.servicios-autor {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #f8f8f8;
+}
+
+.desplegable {
+    background-color: #EB7221;
+    width: 60%;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(182, 182, 182);
+    margin-bottom: 2rem;
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+.texto {
+    padding-top: 2rem;
+    color: #fff;
+    font-size: 25px;
+}
+
+.flecha {
+    cursor: pointer;
+}
+
+.cuando {
+    background-color: #484848;
+    padding-bottom: 10rem;
+    position: relative;
+    margin-top: 5rem;
+}
+
+.cuando-img {
+    position: absolute;
+    margin-top: 10%;
+}
+
+.cuando-img-bg {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cuando h3 {
+    margin-left: 20%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.cuando p {
+    margin-left: 20%;
+    color: #fff;
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 2rem;
+    width: 50%;
+    margin-top: 2rem;
+}
+
+.cuando hr {
+    border: solid 1px #EB7221;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.volver {
+    display: flex;
+    justify-content: center;
+    background-color: #EB7221;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.volver a {
+    color: #fff;
+    border: solid 1px #fff;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    text-decoration: none;
+    font-size: 11px;
+    border-radius: 5rem;
 }
 
 .bgc-footer {
@@ -234,4 +381,66 @@
     display: flex;
     justify-content: space-around;
     margin-top: 3rem;
+}
+
+@media (max-width:1440px) {
+    
+    .nav-list {
+        padding-top: 8rem;
+    }
+
+    .contacto-button {
+        font-size: 12px;
+        font-weight: 700;
+        background: #0056D5;
+        padding: 0.3rem 1.5rem 0.3rem 1.5rem;
+        border-radius: 20px;
+        margin-left: 72vw;
+    }
+
+    .cerrar-menu {
+    top: -6.5rem;
+    left: 2rem;
+    font-size: 2rem;
+}
+
+    .title-home h1 {
+        transform: translateY(5vh);
+        margin-left: 20%;
+    }
+
+    .title-home {
+        font-size: 20px;
+    }
+
+    .metodo {
+        margin-left: 0;
+    }
+
+    .metodo img {
+        width: 100%;
+    }
+
+    .title-metodo {
+        font-size: 2.2rem;
+    }
+
+    .img-conoce {
+        width: 100%;
+    }
+
+    .conoce-button {
+        font-size: 1rem;
+        padding: 0.2rem 2rem 1rem 2rem;
+        right: 22%;
+        text-align: center;
+    }
+
+    .img-footer {
+        height: 2rem;
+    }
+
+    .footer {
+        padding-right: 20%;
+    }
 }
