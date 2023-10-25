@@ -111,7 +111,7 @@
 }
 
 .background-modernizacion {
-    height: 40vh;
+    height: 37vh;
     background-image: url("../img/backgrounds/modernizacion.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -125,8 +125,8 @@
 }
 
 .background-automatizacion {
-    height: 40vh;
-    background-image: url("../img/backgrounds/modernizacion.png");
+    height: 37vh;
+    background-image: url("../img/backgrounds/background-automatizacion.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -225,9 +225,17 @@
 .recursos {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 5rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
+}
+
+.recursos-text h4 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #EB7221;
+    margin-bottom: 2rem;
 }
 
 .recursos p {
