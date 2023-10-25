@@ -302,7 +302,7 @@
     margin-top: 3rem;
 }
 
-@media (max-width:1440px) {
+@media (max-width:1600px) {
     .nav-list {
         padding-top: 8rem;
     }
@@ -328,7 +328,11 @@
     }
 
     .title-home {
-        font-size: 20px;
+        font-size: 15px;
+    }
+
+    .novedades-title {
+        font-size: 1.5rem;
     }
 
     .title-teisa h1 {
@@ -336,6 +340,7 @@
         position: relative;
         margin-left: 20%;
         margin-bottom: 1rem;
+        font-size: 2rem;
     }
     
     .title-teisa h2 {
@@ -344,7 +349,11 @@
         margin-left: 20%;
         color: #fff;
         font-weight: normal;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
+    }
+
+    .novedades-text {
+        font-size: 1.3rem;
     }
 
     .teisa-img {

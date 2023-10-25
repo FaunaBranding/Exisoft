@@ -146,8 +146,8 @@
     display: flex;
     justify-content: center;
     background-color: #fff;
-    width: 60vw;
-    margin-left: 20vw;
+    width: 50vw;
+    margin-left: 25%;
     border-radius: 1.8rem;
     gap: 3.625rem;
 }
@@ -162,18 +162,18 @@
 }
 
 .t1 {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .t2 {
-    font-size: 32px;
+    font-size: 30px;
     margin-bottom: 3rem;
 }
 
 .button-card {
     border: none;
     background: #0056D5;
-    font-size: 17px;
+    font-size: 15px;
     color: #fff;
     font-weight: 700;
     padding: 0.5rem 2.5rem 0.5rem 2.5rem;
@@ -182,18 +182,18 @@
 }
 
 .casos-text {
-    padding-top: 5rem;
-    padding-left: 5rem;
+    padding-top: 3rem;
+    padding-left: 3rem;
 }
 
 .casos-card2 {
     display: flex;
     justify-content: center;
     background-color: #fff;
-    width: 60vw;
-    margin-left: 20vw;
+    width: 50vw;
+    margin-left: 25%;
     border-radius: 1.8rem;
-    gap: 13.43rem;
+    gap: 10rem;
 }
 
 .marcas-title {
@@ -349,7 +349,7 @@
     margin-bottom: 3rem;
 }
 
-@media (max-width:1440px) {
+@media (max-width:1600px) {
     .nav-list {
         padding-top: 8rem;
     }
@@ -374,19 +374,65 @@
         margin-left: 20%;
     }
 
+    .background-pampa {
+        height: 50vh;
+    }
+
+    .background-sancor {
+        height: 50vh;
+    }
+
+    .info h1 {
+        font-size: 2rem;
+    }
+
+    .info h3 {
+        font-size: 1.5rem;
+    }
+
+    .info p {
+        font-size: 1.5rem;
+    }
+
+    .info h2 {
+        font-size: 1.5rem;
+    }
+
+    .info2 {
+        width: 22vw;
+        height: 80vh;
+    }
+
     .title-home {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .casos-card {
-        width: 80vw;
-        margin-left: 10%;
+        width: 65vw;
+        margin-left: 15%;
+        gap: 5.5rem;
     }
 
     .casos-card2 {
-        width: 80vw;
-        margin-left: 10%;
-        gap: 7rem;
+        width: 65vw;
+        margin-left: 15%;
+        gap: 5rem;
+    }
+
+    .button-card {
+        font-size: 10px;
+    }
+
+    .title-info2 {
+        font-size: 1rem;
+    }
+
+    .subtitle-info2 {
+        font-size: 1rem;
+    }
+
+    .title-card {
+        font-size: 1.5rem;
     }
 
     .marcas-title {

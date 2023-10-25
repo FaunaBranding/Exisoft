@@ -391,7 +391,7 @@
     margin-top: 3rem;
 }
 
-@media (max-width:1440px) {
+@media (max-width:1600px) {
     
     .nav-list {
         padding-top: 8rem;
@@ -412,13 +412,18 @@
     font-size: 2rem;
 }
 
+    .background-integracion {
+        height: 42vh;
+        width: 100%;
+    }
+
     .title-home h1 {
         transform: translateY(5vh);
         margin-left: 20%;
     }
 
     .title-home {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .metodo {
@@ -430,11 +435,15 @@
     }
 
     .title-metodo {
-        font-size: 2.2rem;
+        font-size: 2rem;
+    }
+
+    .title-conoce {
+        font-size: 2.5rem;
     }
 
     .img-conoce {
-        width: 100%;
+        width: 90%;
     }
 
     .conoce-button {
@@ -444,6 +453,40 @@
         text-align: center;
     }
 
+    .recursos-text p {
+        font-size: 1.3rem;
+        width: 40vw;
+    }
+
+    .recursos-text h4 {
+        font-size: 1.5rem;
+    }
+
+    .servicios-title {
+        font-size: 2rem;
+    }
+
+    .titulo {
+        font-size: 1rem;
+    }
+
+    .texto {
+        font-size: 1rem;
+    }
+
+    .cuando h3 {
+        font-size: 2rem;
+    }
+
+    .cuando p {
+        font-size: 1.5rem;
+    }
+
+    .cuando hr {
+        width: 60%;
+        margin-left: 17%;
+    }
+    
     .img-footer {
         height: 2rem;
     }
