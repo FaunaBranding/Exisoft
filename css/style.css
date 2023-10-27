@@ -297,6 +297,11 @@
     border-radius: 5px;
     box-shadow: 0 3px 5px #999;
     cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.card-nov:hover {
+    transform: scale(1.02);
 }
 
 .date-card-nov {
@@ -310,6 +315,7 @@
     font-size: 18px;
     padding-left: 1rem;
     padding-top: 1rem;
+    padding-right: 1rem;
 }
 
 .p-card-nov {
