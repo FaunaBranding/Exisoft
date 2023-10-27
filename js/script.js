@@ -9,6 +9,7 @@ const nombre3 = document.querySelector("#nombre-equipo3");
 
 abrir.addEventListener("click", () => {
     nav.classList.add("visible");
+    nav.classList.add("navbar-width");
     title.classList.add("hidden");
     overflow.classList.add("overflow");
     nombre.classList.add("z-index");
@@ -18,6 +19,7 @@ abrir.addEventListener("click", () => {
 
 cerrar.addEventListener("click", () => {
     nav.classList.remove("visible");
+    nav.classList.remove("navbar-width");
     title.classList.remove("hidden");
     overflow.classList.remove("overflow");
     nombre.classList.remove("z-index");
@@ -25,56 +27,46 @@ cerrar.addEventListener("click", () => {
     nombre3.classList.remove("z-index");
 })
 
-document.addEventListener('DOMContentLoaded', function () {
-    const slider = document.querySelector('.slider');
-    const slides = Array.from(slider.children);
-    let currentSlide = 0;
+const content1 = document.querySelector('.casos-home-pampa');
+const content2 = document.querySelector('.casos-home-sancor');
 
-    function showSlide(index) {
-      slides.forEach((slide, ind) => {
-        if (ind === index) {
-          slide.classList.remove('inactive-left', 'inactive-right');
-        } else if (ind < index) {
-          slide.classList.remove('inactive-right');
-          slide.classList.add('inactive-left');
-        } else {
-          slide.classList.remove('inactive-left');
-          slide.classList.add('inactive-right');
-        }
-      });
+setInterval(function() {
+    if (content1.style.display === "none") {
+        content1.style.display = "block";
+        content2.style.display = "none";
+    } else {
+        content1.style.display = "none";
+        content2.style.display = "block";
+    }
+}, 3000);
+
+  function uploadFile() {
+    const fileInput = document.getElementById('fileInput');
+    const uploadedFileLink = document.getElementById('uploadedFileLink');
+    const file = fileInput.files[0];
+    const fileReader = new FileReader();
+
+    fileReader.onload = function (e) {
+        const fileURL = e.target.result;
+        const fileName = file.name;
+        const link = document.createElement('a');
+        link.href = fileURL;
+        link.innerText = fileName;
+        uploadedFileLink.appendChild(link);
     }
 
-    function nextSlide() {
-      currentSlide = (currentSlide + 1) % slides.length;
-      showSlide(currentSlide);
-    }
+    fileReader.readAsDataURL(file);
+}
 
-    setInterval(nextSlide, 5000);
-  });
+function showText() {
+  var overlay = document.getElementById('overlay');
+  overlay.style.opacity = "1";
+}
 
-document.addEventListener('DOMContentLoaded', function () {
-    const inputFile = document.getElementById('archivoInput');
-    const sumateArchivoBtn = document.getElementById('sumateArchivoBtn');
-    const sumateForm = document.getElementById('sumateForm');
-    const nombreArchivoP = document.getElementById('nombreArchivo');
-
-    sumateArchivoBtn.addEventListener('click', function () {
-        inputFile.click();
-    });
-
-    inputFile.addEventListener('change', function () {
-        if (inputFile.value) {
-            nombreArchivoP.textContent = `Archivo seleccionado: ${inputFile.value.split('\\').pop()}`;
-        } else {
-            nombreArchivoP.textContent = '';
-        }
-    });
-
-    sumateForm.addEventListener('submit', function (event) {
-        event.preventDefault();
-        event.stopPropagation();
-    });
-});
+function hideText() {
+  var overlay = document.getElementById('overlay');
+  overlay.style.opacity = "0";
+}
 
 const btn = document.getElementById('button');
 
@@ -86,14 +78,6 @@ document.getElementById('sumate-form')
 
    const serviceID = 'default_service';
    const templateID = 'template_pateon4';
-
-   const form = this;
-   const formData = new FormData(form);
-   const archivoInput = document.getElementById('archivoInput');
-
-   if (archivoInput.files.length > 0) {
-       formData.append('archivo', archivoInput.files[0]);
-   }
 
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
@@ -113,11 +97,11 @@ document.getElementById("sancor").addEventListener("click", function () {
 });
 
 function teisa() {
-  window.location.href = './pages/novedades/teisa.html';
+  window.location.href = './pages/novedades/modernizacion1.html';
 }
 
 function teisanov() {
-  window.location.href = './novedades/teisa.html';
+  window.location.href = './novedades/modernizacion1.html';
 }
 
 function toggleTexto(element) {

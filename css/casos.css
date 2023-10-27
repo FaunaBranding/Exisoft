@@ -122,6 +122,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/backgrounds/background-sancor.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center bottom;
 }
 
 .title-home {
@@ -239,8 +240,12 @@
     color: #909090;
     font-size: 11px;
     margin-top: 0.5rem;
+    text-decoration: none;
 }
 
+.p-footer:hover {
+    color: #dfdfdf;
+}
 .copyright-footer {
     display: flex;
     justify-content: space-around;
@@ -380,18 +385,19 @@
 
     .background-sancor {
         height: 50vh;
+        background-position: center bottom;
     }
 
     .info h1 {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
     .info h3 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .info p {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .info h2 {
@@ -416,11 +422,12 @@
     .casos-card2 {
         width: 65vw;
         margin-left: 15%;
-        gap: 5rem;
+        gap: 10rem;
     }
 
     .button-card {
-        font-size: 10px;
+        font-size: 12px;
+        padding: 0.5rem 1rem 0.5rem 1rem;
     }
 
     .title-info2 {

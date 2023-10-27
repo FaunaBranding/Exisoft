@@ -209,6 +209,7 @@
     font-size: 18px;
     padding: 1rem 3rem 1rem 3rem;
     border-radius: 3rem;
+    cursor: pointer;
 }
 
 .bgc-footer {
@@ -235,6 +236,11 @@
     color: #909090;
     font-size: 11px;
     margin-top: 0.5rem;
+    text-decoration: none;
+}
+
+.p-footer:hover {
+    color: #dfdfdf;
 }
 
 .copyright-footer {

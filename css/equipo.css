@@ -55,6 +55,7 @@
     opacity: 0;
     visibility: hidden;
     padding-top: 12rem;
+    z-index: 2;
 }
 
 .visible {
@@ -133,18 +134,79 @@
 
 .equipo {
     display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.equipo2 {
+    display: flex;
+    align-items: center;
+    margin-top: -0.5rem;
 }
 
 .img-card-1 {
-    width: 652px;
+    width: 33.3vw;
 }
 
 .img-card-2 {
-    width: 650px;
+    width: 33.3vw;
 }
 
 .img-card-3 {
-    width: 600px;
+    width: 33.3vw;
+}
+
+.card-equipo {
+    position: relative;
+    overflow: hidden;
+}
+
+.equipo-texto {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-size: large;
+    padding: 1.5rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.equipo-texto2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-size: large;
+    padding: 1.5rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.equipo-texto p {
+    margin-bottom: 3rem;
+}
+
+.equipo-texto2 p {
+    margin-bottom: 3rem;
+}
+
+.card-equipo:hover .equipo-texto {
+    opacity: 1;
+}
+
+.card-equipo:hover .equipo-texto2 {
+    opacity: 1;
+}
+
+.equipo-foto {
+    z-index: 1;
 }
 
 .title-card-equipo {
@@ -165,13 +227,12 @@
 }
 
 .img-equipo2 {
-    width: 59.4rem;
-    margin-top: -6rem;
+    width: 50vw;
 }
 
 .nombre-equipo2 {
     position: relative;
-    top: -1.75rem;
+    top: 0.25rem;
     background: #fff;
     width: 280px;
     padding: 1rem;
@@ -237,6 +298,13 @@
     padding-bottom: 3rem;
 }
 
+.fotos-row img {
+    transition: transform 0.3s;
+}
+
+.fotos-row img:hover {
+    transform: scale(1.05);
+}
 
 .carrousel {
     background-image: url(../img/carousel-equipo/1.png);
@@ -304,6 +372,22 @@
     color: #fff;
 }
 
+#rol {
+    background: #000;
+    opacity: 50%;
+    border: 0;
+    padding: 0.5rem;
+    width: 40vw;
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+#rol::placeholder {
+    color: #d6d6d6;
+    padding-left: 0.5rem;
+}
+
 #nombre::placeholder {
     color: #d6d6d6;
     padding-left: 0.5rem;
@@ -317,7 +401,7 @@
     width: 40vw;
     font-size: 1rem;
     margin-top: 1.5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 1.5rem;
     color: #fff;
 }
 
@@ -345,7 +429,6 @@
     font-size: 1rem;
     border-radius: 1.5rem;
     cursor: pointer;
-    margin-left: 2rem;
 }
 
 .bgc-footer {
@@ -372,6 +455,11 @@
     color: #909090;
     font-size: 11px;
     margin-top: 0.5rem;
+    text-decoration: none;
+}
+
+.p-footer:hover {
+    color: #dfdfdf;
 }
 
 .copyright-footer {
@@ -430,7 +518,7 @@
 
     .img-equipo2 {
         width: 100%;
-        margin-top: -6rem;
+        margin-top: 0;
     }
 
     .nombre-equipo {
@@ -472,7 +560,7 @@
         font-size: 1.5rem;
     }
 
-    #email, #nombre {
+    #email, #nombre, #rol {
         width: 60%;
     }
 

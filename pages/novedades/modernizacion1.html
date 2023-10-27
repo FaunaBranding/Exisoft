@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teisa - Exisoft: Aliados estratégicos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../../css/novedades.css">
+</head>
+<body id="overflow">
+    <header>
+        <div class="background-teisa">
+            <nav class="nav-home">
+                <ul class="ul-home">
+                    <li><a href="../../index.html"><img src="../../img/logo-exisoft.png" alt="logo exisoft"></a></li>
+                        <li>
+                            <div class="contacto-button">
+                                <a class="a-contacto" href="./contacto.html">CONTACTO</a>
+                            </div>
+                        </li>
+                        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+                        <nav class="nav-list" id="nav">
+                            <div class="button-cerrar">
+                                <button id="cerrar" class="cerrar-menu"><i class="bi bi-x"></i></button>
+                            </div>
+                            <li><a href="../../index.html">HOME</a></li>
+                            <li><a href="../equipo.html">EQUIPO</a></li>
+                            <li><a href="../servicios.html">SERVICIOS</a></li>
+                            <li><a href="../casos.html">CASOS DE USO</a></li>
+                            <li><a href="../novedades.html">NOVEDADES</a></li>
+                            <li><a href="../contacto.html">CONTACTO</a></li>
+                        </nav>
+                </ul>
+            </nav>
+            <div class="title-teisa" id="title-home">
+                <h1>Modernización de aplicaciones:</h1>
+                <h2>El método Exisoft.</h2>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="teisa">
+            <p class="novedades-text">El mundo evoluciona y pareciera que todos los días estamos viviendo lo que antes llamábamos el futuro. El advenimiento de nuevas formas de consumo, dió lugar al nacimiento de nuevas tecnologías que sean capaces de satisfacer las necesidades de los usuarios. Por su parte, estos usuarios también debieron adaptarse a un mercado que avanza a pasos agigantados y animarse a nuevas formas de interactuar con sus marcas. </p>
+            <p class="novedades-text">Y, en medio de todo este contexto, las empresas. Sus sistemas, procesos, aplicaciones, plataformas, y toda su comunicación, se ven atravesadas por el imperativo de evolucionar.</p>
+            <p class="novedades-text">Así, bajo la premisa de seguir satisfaciendo los requerimientos de las compañías y sus clientes, nace el concepto de <b>modernización de aplicaciones.</b></p>
+            <p class="novedades-text">Nos referimos a la intención de mejorar la infraestructura de las aplicaciones (o añadir nuevas) que permitan alcanzar los objetivos de negocio. <b>Modernizar es necesario.</b> Permite a las empresas mantenerse en constante renovación, poder generar nuevas estrategias digitales y ofrecer experiencias de usuario mucho más completas y satisfactorias.</p>
+            <p class="novedades-text"><b>Método Exisoft</b></p>
+            <p class="novedades-text">En Exisoft, desarrollamos una metodología propia que consta de una etapa de diagnóstico y 4 fases:</p>
+            <div class="novedades-text">
+                <p>• Determinación de objetivos</p>
+                <p>• Separación de capas y generación de servicios de datos</p>
+                <p>• Arquitectura, cultura DevOps y automatización de la infraestructura</p>
+                <p>• Recolección de datos y conversión de las métricas en KPIs</p>
+            </div>
+            <p class="novedades-text italic">Determinación de objetivos</p>
+            <p class="novedades-text">Durante esta etapa lo que se busca es determinar el o los sistemas que se verán involucrados en el proceso de modernización que se llevará a cabo.</p>
+            <p class="novedades-text">Según ese análisis, definimos si se realizará una <b>migración escalonada</b> y bajo qué criterios se haría ese escalonamiento, o si se realizará una salida siguiendo un <b>esquema “Big Bang”</b>, donde se desactive la aplicación actual y se implemente la versión modernizada.</p>
+            <p class="novedades-text italic">Separación de capas y generación de servicios de datos</p>
+            <p class="novedades-text">Es importante aclarar que esta etapa solo afecta a aquellas aplicaciones que se encuentran diagramadas en un enlatado “todo en uno”, y se debe trabajar en segmentar las diferentes capas de la aplicación.</p>
+            <p class="novedades-text">Principalmente, se propone tener 3 capas básicas: la capa de datos donde se tienen todos los orígenes de datos que utilicen las aplicaciones, la capa de lógica donde se tengan todas las reglas del negocio y, finalmente, la capa de visualización o exposición que se encargará de exponer las aplicaciones.</p>
+            <p class="novedades-text">Luego pasamos a la <b>generación de servicios de datos,</b> la segunda etapa de esta fase. Creamos <b>microservicios</b> que se encargan de estandarizar el acceso a las diferentes fuentes de información, ya sean bases de datos relacionales, no relacionales o archivos.</p>
+            <p class="novedades-text">El objetivo principal es lograr que no se tenga otra forma de acceder a los datos que no sea a través de estos servicios, ya que persiguen el objetivo de unificar los accesos, garantizar la confiabilidad de los datos y convertirse en la única fuente de información.</p>
+            <p class="novedades-text">Las migraciones pueden darse en dos clases diferentes de servicios: simples u orquestados. Un <b>servicio simple</b> se caracteriza por no tener lógica de negocio, es decir, son servicios que pueden construir objetos a partir de múltiples fuentes de información, o pueden ser simples ABM de entidades de negocio. Esta migración de servicios simples busca empezar a liberar la carga del monolito o del bus que se tenga actualmente implementado, para darle espacio a los servicios de orquestación más complejos a que puedan tener más recursos en caso de un pico de demanda.</p>
+            <p class="novedades-text">Por su parte, los <b>servicios orquestados</b> suelen tener lógica de negocio y múltiples accesos a múltiples fuentes de datos, y es por esto que son la última pieza a migrar hacia la nueva arquitectura de <b>microservicios.</b> Para este punto los servicios no deberían contar con accesos directos a las fuentes de datos así como tampoco deberían tener la lógica que se encuentra dentro de los servicios simples para los ABM de entidades de negocio, por lo que su complejidad de migración debería verse reducida.</p>
+            <p class="novedades-text italic">Arquitectura, cultura DevOps y automatización de la infraestructura</p>
+            <p class="novedades-text">El primer paso es determinar qué arquitectura vamos a implementar, por lo que es necesario definir, en primer lugar, qué plataforma vamos a utilizar para la <b>gestión de contenedores</b> (Openshift o Kubernetes, por ejemplo) y qué <b>gestor de imágenes</b> se va a utilizar.</p>
+            <p class="novedades-text">Ya teniendo los servicios migrados y listos para ser desplegados, las imágenes creadas y publicadas en el registry definido previamente en la definición de arquitectura, el siguiente paso es trabajar en las configuraciones de las aplicaciones, la adopción de las prácticas detalladas por IBM en su metodología de los 15 factores.</p>
+            <p class="novedades-text">Como último paso dentro de todo el proceso, llevamos a su máxima expresión la <b>cultura de DevOps</b> y se opta no sólo por automatizar los procesos de despliegue de aplicaciones mediante herramientas como pueden ser Jenkins o Tekton, sino que además, se empieza a trabajar con ideas asociadas a <b>Infrastructure as Code (IaC)</b>, y se busca que el despliegue de nuevos clusters o ampliaciones de los clusters actuales se basen en esta idea de que todas las configuraciones de la infraestructura se hagan mediante archivos de configuración y procesos automáticos que apliquen los cambios.</p>
+            <p class="novedades-text italic">Recolección de datos y conversión de las métricas en KPIs</p>
+            <p class="novedades-text">El objetivo principal será conseguir la mayor cantidad de información para poder elaborar <b>métricas acerca de la salud de las aplicaciones.</b> Esta etapa puede iniciar tan pronto como se comiencen a desplegar los nuevos servicios o se tenga forma de acceder a los servicios y/o aplicaciones previamente desplegadas. La forma más eficiente de realizar esta recolección de datos es implementar algún stack de análisis de logs y algún motor de búsqueda. Por ejemplo, puede ser el stack ELK, que consiste en Elasticsearch como motor de búsqueda, Logstash como recolector de logs y Kibana como herramienta de explotación de información. A estas herramientas se les pueden sumar herramientas gráficas como Grafana para poder generar tableros visuales que le sirvan a los analistas de negocio.</p>
+            <p class="novedades-text">Y así como comenzamos a recolectar datos, también comenzamos a generar métricas, y analizamos, de todas estas métricas, cuáles van a ser las claves que se van a presentar al negocio para que éste tome decisiones de hacia dónde se pueden enfocar los esfuerzos en los próximos períodos.</p>
+            <p class="novedades-text">En resumen, lo que hacemos es tomar las métricas y evaluarlas teniendo en cuenta indicadores claves que se alineen a los objetivos de negocio de la empresa.</p>
+            <p class="novedades-text"><b>Conclusión</b></p>
+            <p class="novedades-text">Es importante tener presente que modernizar las aplicaciones ya existentes dentro de una empresa puede traer aparejados problemas. Es probable que los sistemas dentro de las compañías estén relacionados entre sí y que la evolución de uno de ellos repercuta en el funcionamiento de los otros.</p>
+            <p class="novedades-text">En Exisoft <b>somos expertos en integración de negocios y sistemas.</b> Por eso desarrollamos nuestra propia metodología de modernización de aplicaciones, que elimina por completo el riesgo de pérdida de información y aumenta la eficiencia y productividad de los procesos.</p>
+            <p class="novedades-text frase">Exisoft | Transformamos grandes empresas en líderes digitales.</p>
+        </div>
+        <div class="teisa-img"><img src="../../img/novedades/cards/IMAGEN1.jpg" alt="teisa exisoft"></div>
+        <h3 class="novedades-title frase title-size">Notas relacionadas</h3>
+        <div class="teisa-novedades">
+            <div class="teisa-card card-1">
+                <h5>Teisa - Exisoft: Aliados estratégicos</h5>
+                <p>Medidas de seguridad y cómo controlar el acceso a las APIs</p>
+            </div>
+            <div class="teisa-card card-2">
+                <h5>Teisa - Exisoft: Aliados estratégicos</h5>
+                <p>Medidas de seguridad y cómo controlar el acceso a las APIs</p>
+            </div>
+            <div class="teisa-card card-3">
+                <h5>Teisa - Exisoft: Aliados estratégicos</h5>
+                <p>Medidas de seguridad y cómo controlar el acceso a las APIs</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="bgc-footer">
+            <div class="footer">
+                <a href="../index.html"><img class="img-footer" src="../../img/logo-exisoft.png" alt="exisoft"></a>
+                <div class="footer-column">
+                    <h5 class="title-footer">EQUIPO</h5>
+                    <a href="../equipo.html" class="p-footer">Directores</a><br>
+                    <a href="../equipo.html" class="p-footer">Búsquedas</a>
+                </div>
+                <div class="footer-column">
+                    <h5 class="title-footer">SOLUCIONES</h5>
+                    <a href="../servicios/modernizacion.html" class="p-footer">Modernización de aplicaciones</a><br>
+                    <a href="../servicios/integracion.html" class="p-footer">Integración de negocios</a><br>
+                    <a href="../servicios/automatizacion.html" class="p-footer">Automatización de procesos</a><br>
+                </div>
+                <div class="footer-column">
+                    <h5 class="title-footer">EXPERIENCIAS</h5>
+                    <a href="../casos/sancor.html" class="p-footer">Grupo Sancor Seguros</a><br>
+                    <a href="../casos/pampa.html" class="p-footer">Pampa Energia</a><br>
+                </div>
+                <div class="footer-column">
+                    <h5 class="title-footer">NOVEDADES</h5>
+                    <a href="../novedades.html" class="p-footer">Contenidos</a>
+                </div>
+            </div>
+            <div class="copyright-footer">
+                <p class="p-footer">Exisoft 2019 © | Todos  los  Derechos Reservados | info@exisoft.com.ar</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../../js/script.js"></script>
+</body>
+</html>

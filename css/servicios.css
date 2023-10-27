@@ -181,21 +181,21 @@
     display: flex;
     justify-content: center;
     margin-bottom: 5rem;
-    margin-left: 12vw;
+    margin-left: 12%;
+}
+
+.img-conoce {
+    width: 60%;
 }
 
 .conoce-button {
-    text-decoration: none;
-    color: #fff;
-    font-size: 30px;
-    font-weight: 700;
-    padding: 0.5rem 2rem 0.5rem 2rem;
-    background-color: #0056D5;
     position: relative;
-    bottom: -23rem;
-    right: 20%;
-    height: 6vh;
-    border-radius: 5rem;
+    top: 19rem;
+    right: 15%;
+}
+
+.conoce-mas {
+    width: 70%;
 }
 
 .marcas-title {
@@ -383,6 +383,11 @@
     color: #909090;
     font-size: 11px;
     margin-top: 0.5rem;
+    text-decoration: none;
+}
+
+.p-footer:hover {
+    color: #dfdfdf;
 }
 
 .copyright-footer {
@@ -443,14 +448,17 @@
     }
 
     .img-conoce {
-        width: 90%;
+        width: 70%;
+        margin-left: 8%;
     }
 
     .conoce-button {
-        font-size: 1rem;
-        padding: 0.2rem 2rem 1rem 2rem;
-        right: 22%;
-        text-align: center;
+        top: 16.5rem;
+        right: 19%;
+    }
+
+    .recursos img {
+        width: 5%;
     }
 
     .recursos-text p {
@@ -479,7 +487,7 @@
     }
 
     .cuando p {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .cuando hr {
