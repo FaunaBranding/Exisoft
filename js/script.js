@@ -27,18 +27,24 @@ cerrar.addEventListener("click", () => {
     nombre3.classList.remove("z-index");
 })
 
-const content1 = document.querySelector('.casos-home-pampa');
-const content2 = document.querySelector('.casos-home-sancor');
+$(document).ready(function() {
+  const content1 = $('.casos-home-pampa');
+  const content2 = $('.casos-home-sancor');
 
-setInterval(function() {
-    if (content1.style.display === "none") {
-        content1.style.display = "block";
-        content2.style.display = "none";
+  content1.hide();
+
+  setInterval(function() {
+    if (content1.css('display') === 'none') {
+      content2.fadeOut(800, function() {
+        content1.fadeIn(800);
+      });
     } else {
-        content1.style.display = "none";
-        content2.style.display = "block";
+      content1.fadeOut(800, function() {
+        content2.fadeIn(800);
+      });
     }
-}, 3000);
+  }, 4000);
+});
 
   function uploadFile() {
     const fileInput = document.getElementById('fileInput');
@@ -88,20 +94,20 @@ document.getElementById('sumate-form')
     });
 });
 
-document.getElementById("pampa").addEventListener("click", function () {
-    window.open("./casos/pampa.html");
-});
-
-document.getElementById("sancor").addEventListener("click", function () {
-    window.open("./casos/sancor.html");
-});
-
-function teisa() {
-  window.location.href = './pages/novedades/modernizacion1.html';
+function sistemas() {
+  window.location.href = './pages/novedades/sistemas.html';
 }
 
-function teisanov() {
-  window.location.href = './novedades/modernizacion1.html';
+function integracion() {
+  window.location.href = './pages/novedades/integracion.html';
+}
+
+function integracionNov() {
+  window.location.href = './integracion.html';
+}
+
+function sistemasNov() {
+  window.location.href = './sistemas.html';
 }
 
 function toggleTexto(element) {

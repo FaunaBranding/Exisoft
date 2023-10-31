@@ -7,6 +7,7 @@
     <title>Exisoft</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body id="overflow">
     <header>
@@ -76,13 +77,13 @@
             </div>
         </div>
         <div class="slider">
-            <div class="casos-home-sancor">
+            <div class="casos-home-sancor active">
               <h2 class="title-casos">Caso Sancor Seguros</h2>
               <p class="text-casos">"Exisoft cuenta con la experiencia y conocimiento probado en el mercado, y agrega importante valor como socio estratégico al acompañar a Grupo Sancor Seguros a transitar el camino hacia alcanzar su liderazgo digital"</p>
               <p class="author-casos">Grupo Sancor Seguros</p>
               <a href="./pages/casos/sancor.html" class="button-casos">Conocé el caso de estudio</a>
             </div>
-            <div class="casos-home-pampa">
+            <div class="casos-home-pampa" style="display: none;">
               <h2 class="title-casos">Caso Pampa Energía</h2>
               <p class="text-casos">"Cuando uno busca una consultora, busca un socio y un equipo que nos respalde. Eso lo pude encontrar en Exisoft."</p>
               <p class="author-casos mt">Carolina Rondolini - PMP Jefa de Planificación y Gestión.</p>
@@ -92,28 +93,28 @@
         <div class="novedades-home">
             <h2 class="title-novedades">Novedades</h2>
             <div class="cards-novedades">
-                <div class="card-nov" onclick="teisa()">
+                <div class="card-nov" onclick="sistemas()">
                     <img src="./img/novedades/cards/CARD1.jpg" alt="novedades exisoft">
-                    <p class="date-card-nov">08.08.2021</p>
-                    <h3 class="title-card-nov">Modernización de aplicaciones: Método Exisoft</h3>
+                    <p class="date-card-nov">01.02.2023</p>
+                    <h3 class="title-card-nov">Modernización de aplicaciones: De los sistemas monolíticos a los microservicios</h3>
                     <p class="p-card-nov">Elimina por completo el riesgo de pérdida de información y aumenta la eficiencia y productividad de los procesos.</p>
                 </div>
-                <div class="card-nov">
-                    <img src="./img/cards/novedades2.png" alt="novedades exisoft">
-                    <p class="date-card-nov">08.08.2021</p>
-                    <h3 class="title-card-nov">Teisa - Exisoft: Aliados estratégicos</h3>
+                <div class="card-nov" onclick="integracion()">
+                    <img src="./img/novedades/cards/CARD2.jpg" alt="novedades exisoft">
+                    <p class="date-card-nov">02.02.2023</p>
+                    <h3 class="title-card-nov">Integración de negocios: Claves para una transformación digital exitosa</h3>
                     <p class="p-card-nov">Medidas de seguridad y cómo controlar el acceso a APIs</p>
                 </div>
                 <div class="card-nov">
-                    <img src="./img/cards/novedades3.png" alt="novedades exisoft">
-                    <p class="date-card-nov">08.08.2021</p>
-                    <h3 class="title-card-nov">Teisa - Exisoft: Aliados estratégicos</h3>
+                    <img src="./img/novedades/cards/CARD3.jpg" alt="novedades exisoft">
+                    <p class="date-card-nov">03.01.2023</p>
+                    <h3 class="title-card-nov">Ventajas de implementar DevOps en tu empresa</h3>
                     <p class="p-card-nov">Medidas de seguridad y cómo controlar el acceso a APIs</p>
                 </div>
                 <div class="card-nov">
-                    <img src="./img/cards/novedades4.png" alt="novedades exisoft">
-                    <p class="date-card-nov">08.08.2021</p>
-                    <h3 class="title-card-nov">Teisa - Exisoft: Aliados estratégicos</h3>
+                    <img src="./img/novedades/cards/CARD4.jpg" alt="novedades exisoft">
+                    <p class="date-card-nov">04.01.2023</p>
+                    <h3 class="title-card-nov">Open Banking: La modernización de las tecnologías financieras</h3>
                     <p class="p-card-nov">Medidas de seguridad y cómo controlar el acceso a APIs</p>
                 </div>
             </div>
@@ -124,12 +125,27 @@
     </main>
     <footer>
             <h4 class="marcas-title">SOMOS SOCIOS ESTRATÉGICOS EN TRANSFORMACIÓN DIGITAL</h4>
-            <div class="marcas-home">
-                <img src="./img/marcas/marca1.png" alt="molinos">
-                <img src="./img/marcas/marca2.png" alt="arcos">
-                <img src="./img/marcas/marca3.png" alt="edenor">
-                <img src="./img/marcas/marca4.png" alt="pampa energia">
-                <img src="./img/marcas/marca5.png" alt="andreani">
+            <div class="viewport">
+                <div class="marcas-home">
+                    <img src="./img/marcas/1.png" alt="arcos">
+                    <img id="chaco" src="./img/marcas/2.jpeg" alt="nuevo banco del chaco">
+                    <img id="patagonia" src="./img/marcas/3.png" alt="banco patagonia">
+                    <img id="colombia" src="./img/marcas/4.png" alt="grupo bancolombia">
+                    <img src="./img/marcas/5.png" alt="bancor">
+                    <img src="./img/marcas/6.png" alt="banco credicoop">
+                    <img src="./img/marcas/7.jpeg" alt="danone">
+                    <img src="./img/marcas/8.png" alt="galicia">
+                    <img src="./img/marcas/9.png" alt="hsbc">
+                    <img id="itau" src="./img/marcas/10.png" alt="itau">
+                    <img src="./img/marcas/11.png" alt="banco macro">
+                    <img src="./img/marcas/12.png" alt="molinos">
+                    <img src="./img/marcas/13.png" alt="naranja">
+                    <img src="./img/marcas/14.png" alt="prevencion-art">
+                    <img src="./img/marcas/15.png" alt="prevencion">
+                    <img src="./img/marcas/16.jpeg" alt="sancor">
+                    <img src="./img/marcas/17.png" alt="sancor salud">
+                    <img src="./img/marcas/18.jpg" alt="veraz">
+                </div>
             </div>
             <div class="bgc-footer">
             <div class="footer">

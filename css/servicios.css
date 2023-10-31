@@ -111,22 +111,22 @@
 }
 
 .background-modernizacion {
-    height: 37vh;
-    background-image: url("../img/backgrounds/modernizacion.png");
+    height: 45vh;
+    background-image: url("../img/backgrounds/modernizacion.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .background-integracion {
-    height: 50vh;
-    background-image: url("../img/backgrounds/integracion.png");
+    height: 45vh;
+    background-image: url("../img/backgrounds/integracion.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .background-automatizacion {
-    height: 37vh;
-    background-image: url("../img/backgrounds/background-automatizacion.png");
+    height: 45vh;
+    background-image: url("../img/backgrounds/automatizacion.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -152,7 +152,11 @@
 .metodo {
     display: flex;
     justify-content: center;
-    margin-left: 2vw;
+    margin-bottom: 1rem;
+}
+
+.metodo img {
+    width: 70%;
 }
 
 .title-metodo {
@@ -160,7 +164,7 @@
     font-weight: 700;
     font-size: 42px;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .conoce {
@@ -180,18 +184,18 @@
 .card-conoce {
     display: flex;
     justify-content: center;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     margin-left: 12%;
 }
 
 .img-conoce {
-    width: 60%;
+    width: 50%;
 }
 
 .conoce-button {
     position: relative;
-    top: 19rem;
-    right: 15%;
+    top: 16rem;
+    right: 14%;
 }
 
 .conoce-mas {
@@ -209,8 +213,25 @@
 .marcas-servicios {
     display: flex;
     justify-content: center;
-    gap: 5vw;
+    display: inline-block;
     margin-bottom: 4rem;
+    white-space: nowrap;
+    margin-left: 10%;
+}
+
+.marcas-servicios img {
+    width: 10%;
+    margin-left: 7rem;
+}
+
+#microsoft {
+    position: relative;
+    top: -1rem;
+}
+
+#oracle, #nexsys {
+    position: relative;
+    top: -2.5rem;
 }
 
 .servicios-img {
@@ -436,7 +457,7 @@
     }
 
     .metodo img {
-        width: 100%;
+        width: 80%;
     }
 
     .title-metodo {
@@ -448,13 +469,14 @@
     }
 
     .img-conoce {
-        width: 70%;
-        margin-left: 8%;
+        width: 60%;
+        margin-left: 0;
     }
 
     .conoce-button {
-        top: 16.5rem;
-        right: 19%;
+        top: 14rem;
+        right: 16%;
+        width: 15%;
     }
 
     .recursos img {
@@ -495,6 +517,14 @@
         margin-left: 17%;
     }
     
+    #oracle, #nexsys {
+        top: -2rem;
+    }
+
+    .marcas-servicios {
+        margin-left: 0;
+    }
+
     .img-footer {
         height: 2rem;
     }
