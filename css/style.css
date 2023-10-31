@@ -20,6 +20,10 @@
     margin-left: 4rem;
 }
 
+.exi-logo {
+    width: 120%;
+}
+
 .ul-home {
     display: flex;
     list-style-type: none;
@@ -331,7 +335,7 @@
 
 .p-card-nov {
     color: #484848;
-    font-size: 13px;
+    font-size: 12px;
     padding-left: 1rem;
     padding-top: 1rem;
     padding-right: 1rem;
@@ -426,6 +430,18 @@
 .title-footer {
     color: #fff;
     font-size: 11px;
+}
+
+.contacto-footer {
+    color: #fff;
+    text-decoration: none;
+    font-size: 11px;
+    position: relative;
+    top: -5px;
+}
+
+.contacto-footer:hover {
+    color: #dfdfdf;
 }
 
 .p-footer {

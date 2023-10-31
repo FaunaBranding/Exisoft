@@ -243,6 +243,18 @@
     color: #dfdfdf;
 }
 
+.contacto-footer {
+    color: #fff;
+    text-decoration: none;
+    font-size: 11px;
+    position: relative;
+    top: -5px;
+}
+
+.contacto-footer:hover {
+    color: #dfdfdf;
+}
+
 .copyright-footer {
     display: flex;
     justify-content: space-around;

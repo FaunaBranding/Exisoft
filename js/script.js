@@ -102,6 +102,30 @@ function integracion() {
   window.location.href = './pages/novedades/integracion.html';
 }
 
+function nov1() {
+  window.location.href = './novedades/integracion.html';
+}
+
+function nov2() {
+  window.location.href = './novedades/sistemas.html';
+}
+
+function nov3() {
+  window.location.href = './novedades/openbanking.html';
+}
+
+function nov4() {
+  window.location.href = './novedades/devops.html';
+}
+
+function nov5() {
+  window.location.href = './novedades/metodo.html';
+}
+
+function nov6() {
+  window.location.href = './novedades/hiperautomatizacion.html';
+}
+
 function integracionNov() {
   window.location.href = './integracion.html';
 }

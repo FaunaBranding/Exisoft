@@ -301,6 +301,7 @@
     border-radius: 5px;
     box-shadow: 0 0 5px rgb(182, 182, 182);
     margin-bottom: 2rem;
+    cursor: pointer;
 }
 
 .titulo {
@@ -315,10 +316,6 @@
     padding-top: 2rem;
     color: #fff;
     font-size: 25px;
-}
-
-.flecha {
-    cursor: pointer;
 }
 
 .cuando {
@@ -405,6 +402,18 @@
     font-size: 11px;
     margin-top: 0.5rem;
     text-decoration: none;
+}
+
+.contacto-footer {
+    color: #fff;
+    text-decoration: none;
+    font-size: 11px;
+    position: relative;
+    top: -5px;
+}
+
+.contacto-footer:hover {
+    color: #dfdfdf;
 }
 
 .p-footer:hover {
