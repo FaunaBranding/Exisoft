@@ -289,6 +289,10 @@
     margin-left: 21%;
 }
 
+.mb {
+    margin-bottom: 5rem;
+}
+
 .title-novedades {
     color: #EB7221;
     font-weight: 700;

@@ -190,6 +190,11 @@
 
 .img-conoce {
     width: 50%;
+    transition: transform 0.3s;
+}
+
+.img-conoce:hover {
+    transform: scale(1.02)
 }
 
 .conoce-button {
