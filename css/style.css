@@ -142,6 +142,8 @@
     transform: translateY(18rem);
     left: 25rem;
     position: relative;
+    font-weight: 300;
+    text-shadow: 0 0 8px #292929;
 }
 
 .bgc-main {
@@ -468,6 +470,10 @@
     display: flex;
     justify-content: space-around;
     margin-top: 3rem;
+}
+
+.light {
+    font-weight: 300;
 }
 
 @media (max-width:1600px) {

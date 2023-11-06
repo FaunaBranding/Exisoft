@@ -139,10 +139,11 @@
     color: #fff;
     font-size: 22px;
     position: relative;
+    font-weight: 400;
 }
 
 .title-home h1 {
-    transform: translateY(5rem);
+    transform: translateY(10rem);
     position: relative;
     margin-left: 25rem;
 }
