@@ -146,6 +146,7 @@
     transform: translateY(10rem);
     position: relative;
     margin-left: 25rem;
+    font-weight: 400;
 }
 
 .casos {
@@ -377,9 +378,18 @@
     margin-bottom: 3rem;
 }
 
+.light {
+    font-weight: 400;
+}
+
 @media (max-width:1600px) {
     .nav-list {
-        padding-top: 8rem;
+        padding-top: 10rem;
+    }
+
+    .navbar-width {
+        width: 110%;
+        height: 120vh;
     }
 
     .contacto-button {
@@ -392,13 +402,13 @@
     }
 
     .cerrar-menu {
-    top: -6.5rem;
-    left: 2rem;
+    top: -3.5rem;
+    left: 2.5rem;
     font-size: 2rem;
 }
 
     .title-home h1 {
-        transform: translateY(5vh);
+        transform: translateY(15vh);
         margin-left: 20%;
     }
 
@@ -433,7 +443,7 @@
     }
 
     .title-home {
-        font-size: 15px;
+        font-size: 1.5rem;
     }
 
     .casos-card {

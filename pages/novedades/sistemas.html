@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teisa - Exisoft: Aliados estratégicos</title>
+    <title>Modernización de aplicaciones: De los sistemas monolíticos a los microservicios</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../../css/novedades.css">
 </head>
@@ -34,46 +34,45 @@
                 </ul>
             </nav>
             <div class="title-teisa" id="title-home">
-                <h1>Modernización de aplicaciones:</h1>
-                <h2>El método Exisoft.</h2>
+                <h1>MODERNIZACIÓN DE APLICACIONES</h1>
+                <h2>De los sistemas monolíticos a los microservicios</h2>
             </div>
         </div>
     </header>
     <main>
         <div class="teisa">
-            <p class="novedades-text">El mundo evoluciona y pareciera que todos los días estamos viviendo lo que antes llamábamos el futuro. El advenimiento de nuevas formas de consumo, dió lugar al nacimiento de nuevas tecnologías que sean capaces de satisfacer las necesidades de los usuarios. Por su parte, estos usuarios también debieron adaptarse a un mercado que avanza a pasos agigantados y animarse a nuevas formas de interactuar con sus marcas. </p>
-            <p class="novedades-text">Y, en medio de todo este contexto, las empresas. Sus sistemas, procesos, aplicaciones, plataformas, y toda su comunicación, se ven atravesadas por el imperativo de evolucionar.</p>
-            <p class="novedades-text">Así, bajo la premisa de seguir satisfaciendo los requerimientos de las compañías y sus clientes, nace el concepto de <b>modernización de aplicaciones.</b></p>
-            <p class="novedades-text">Nos referimos a la intención de mejorar la infraestructura de las aplicaciones (o añadir nuevas) que permitan alcanzar los objetivos de negocio. <b>Modernizar es necesario.</b> Permite a las empresas mantenerse en constante renovación, poder generar nuevas estrategias digitales y ofrecer experiencias de usuario mucho más completas y satisfactorias.</p>
-            <p class="novedades-text"><b>Método Exisoft</b></p>
-            <p class="novedades-text">En Exisoft, desarrollamos una metodología propia que consta de una etapa de diagnóstico y 4 fases:</p>
+            <p class="novedades-text">En la <b>arquitectura monolítica todas las funciones y la lógica de negocio están dentro</b>  de una única base de código. Si bien esta arquitectura fue la dominante durante mucho tiempo, hoy ha ido quedando obsoleta, pues los proyectos han crecido en complejidad, cargas de trabajo, número de desarrolladores y de usuarios.</p>
+            <p class="novedades-text">Para responder a las necesidades actuales de las empresas, se vuelve necesario que las aplicaciones sean construidas de forma distribuida, donde los distintos componentes puedan desplegarse de forma independiente. Es por esto que se está utilizando cada vez más una <b>arquitectura basada en microservicios.</b></p>
+            <p class="novedades-text italic">Sistemas monolíticos</p>
+            <p class="novedades-text">Las primeras aplicaciones de software usan este diseño y si bien en un principio eran aplicaciones simples, que eran fáciles de desarrollar y desplegar, con el tiempo se fueron volviendo más y más complejas. </p>
+            <p class="novedades-text">Debido a la simpleza de su estructura, el desarrollo de aplicaciones monolíticas suelen presentar menos inconvenientes a la hora de desplegarla que sus alternativas, ya que se tiene que desplegar una sola aplicación. Sin embargo, una aplicación que concentra toda su funcionalidad no es necesariamente mejor, en especial si su sistema tiende a crecer en complejidad y usuarios. Entre las <b>principales dificultades</b> que presenta este sistema, podemos detallar las siguientes:</p>
             <div class="novedades-text">
-                <p>• Determinación de objetivos</p>
-                <p>• Separación de capas y generación de servicios de datos</p>
-                <p>• Arquitectura, cultura DevOps y automatización de la infraestructura</p>
-                <p>• Recolección de datos y conversión de las métricas en KPIs</p>
+                <p><b>• Actualización.</b> Al tratarse de un código único, todo nuevo despliegue requiere probar y relanzar la aplicación en su conjunto.</p>
+                <p><b>• Crecimiento.</b> El crecimiento del código no siempre es lineal y va aparejado de una sobrecarga de la aplicación informática, lo que en última instancia repercute sobre su agilidad.</p>
+                <p><b>• Riesgo de fallas.</b> Debido a lo interdependientes e interconectados que están los componentes de un sistema monolítico, incluso un problema menor lleva a que toda la aplicación pueda fallar. </p>
+                <p><b>• Falta de flexibilidad.</b> Ajustarse a una sola tecnología puede tener sus propias limitaciones, y adoptar nuevas soluciones suele significar tener que reescribir todo el sistema.</p>
             </div>
-            <p class="novedades-text italic">Determinación de objetivos</p>
-            <p class="novedades-text">Durante esta etapa lo que se busca es determinar el o los sistemas que se verán involucrados en el proceso de modernización que se llevará a cabo.</p>
-            <p class="novedades-text">Según ese análisis, definimos si se realizará una <b>migración escalonada</b> y bajo qué criterios se haría ese escalonamiento, o si se realizará una salida siguiendo un <b>esquema “Big Bang”</b>, donde se desactive la aplicación actual y se implemente la versión modernizada.</p>
-            <p class="novedades-text italic">Separación de capas y generación de servicios de datos</p>
-            <p class="novedades-text">Es importante aclarar que esta etapa solo afecta a aquellas aplicaciones que se encuentran diagramadas en un enlatado “todo en uno”, y se debe trabajar en segmentar las diferentes capas de la aplicación.</p>
-            <p class="novedades-text">Principalmente, se propone tener 3 capas básicas: la capa de datos donde se tienen todos los orígenes de datos que utilicen las aplicaciones, la capa de lógica donde se tengan todas las reglas del negocio y, finalmente, la capa de visualización o exposición que se encargará de exponer las aplicaciones.</p>
-            <p class="novedades-text">Luego pasamos a la <b>generación de servicios de datos,</b> la segunda etapa de esta fase. Creamos <b>microservicios</b> que se encargan de estandarizar el acceso a las diferentes fuentes de información, ya sean bases de datos relacionales, no relacionales o archivos.</p>
-            <p class="novedades-text">El objetivo principal es lograr que no se tenga otra forma de acceder a los datos que no sea a través de estos servicios, ya que persiguen el objetivo de unificar los accesos, garantizar la confiabilidad de los datos y convertirse en la única fuente de información.</p>
-            <p class="novedades-text">Las migraciones pueden darse en dos clases diferentes de servicios: simples u orquestados. Un <b>servicio simple</b> se caracteriza por no tener lógica de negocio, es decir, son servicios que pueden construir objetos a partir de múltiples fuentes de información, o pueden ser simples ABM de entidades de negocio. Esta migración de servicios simples busca empezar a liberar la carga del monolito o del bus que se tenga actualmente implementado, para darle espacio a los servicios de orquestación más complejos a que puedan tener más recursos en caso de un pico de demanda.</p>
-            <p class="novedades-text">Por su parte, los <b>servicios orquestados</b> suelen tener lógica de negocio y múltiples accesos a múltiples fuentes de datos, y es por esto que son la última pieza a migrar hacia la nueva arquitectura de <b>microservicios.</b> Para este punto los servicios no deberían contar con accesos directos a las fuentes de datos así como tampoco deberían tener la lógica que se encuentra dentro de los servicios simples para los ABM de entidades de negocio, por lo que su complejidad de migración debería verse reducida.</p>
-            <p class="novedades-text italic">Arquitectura, cultura DevOps y automatización de la infraestructura</p>
-            <p class="novedades-text">El primer paso es determinar qué arquitectura vamos a implementar, por lo que es necesario definir, en primer lugar, qué plataforma vamos a utilizar para la <b>gestión de contenedores</b> (Openshift o Kubernetes, por ejemplo) y qué <b>gestor de imágenes</b> se va a utilizar.</p>
-            <p class="novedades-text">Ya teniendo los servicios migrados y listos para ser desplegados, las imágenes creadas y publicadas en el registry definido previamente en la definición de arquitectura, el siguiente paso es trabajar en las configuraciones de las aplicaciones, la adopción de las prácticas detalladas por IBM en su metodología de los 15 factores.</p>
-            <p class="novedades-text">Como último paso dentro de todo el proceso, llevamos a su máxima expresión la <b>cultura de DevOps</b> y se opta no sólo por automatizar los procesos de despliegue de aplicaciones mediante herramientas como pueden ser Jenkins o Tekton, sino que además, se empieza a trabajar con ideas asociadas a <b>Infrastructure as Code (IaC)</b>, y se busca que el despliegue de nuevos clusters o ampliaciones de los clusters actuales se basen en esta idea de que todas las configuraciones de la infraestructura se hagan mediante archivos de configuración y procesos automáticos que apliquen los cambios.</p>
-            <p class="novedades-text italic">Recolección de datos y conversión de las métricas en KPIs</p>
-            <p class="novedades-text">El objetivo principal será conseguir la mayor cantidad de información para poder elaborar <b>métricas acerca de la salud de las aplicaciones.</b> Esta etapa puede iniciar tan pronto como se comiencen a desplegar los nuevos servicios o se tenga forma de acceder a los servicios y/o aplicaciones previamente desplegadas. La forma más eficiente de realizar esta recolección de datos es implementar algún stack de análisis de logs y algún motor de búsqueda. Por ejemplo, puede ser el stack ELK, que consiste en Elasticsearch como motor de búsqueda, Logstash como recolector de logs y Kibana como herramienta de explotación de información. A estas herramientas se les pueden sumar herramientas gráficas como Grafana para poder generar tableros visuales que le sirvan a los analistas de negocio.</p>
-            <p class="novedades-text">Y así como comenzamos a recolectar datos, también comenzamos a generar métricas, y analizamos, de todas estas métricas, cuáles van a ser las claves que se van a presentar al negocio para que éste tome decisiones de hacia dónde se pueden enfocar los esfuerzos en los próximos períodos.</p>
-            <p class="novedades-text">En resumen, lo que hacemos es tomar las métricas y evaluarlas teniendo en cuenta indicadores claves que se alineen a los objetivos de negocio de la empresa.</p>
-            <p class="novedades-text"><b>Conclusión</b></p>
-            <p class="novedades-text">Es importante tener presente que modernizar las aplicaciones ya existentes dentro de una empresa puede traer aparejados problemas. Es probable que los sistemas dentro de las compañías estén relacionados entre sí y que la evolución de uno de ellos repercuta en el funcionamiento de los otros.</p>
-            <p class="novedades-text">En Exisoft <b>somos expertos en integración de negocios y sistemas.</b> Por eso desarrollamos nuestra propia metodología de modernización de aplicaciones, que elimina por completo el riesgo de pérdida de información y aumenta la eficiencia y productividad de los procesos.</p>
+            <p class="novedades-text italic">Arquitectura de microservicios</p>
+            <p class="novedades-text">Este tipo de arquitectura, busca desacoplar o independizar los componentes individuales de una aplicación, para que cada componente sea una aplicación en sí misma.</p>
+            <p class="novedades-text">Los microservicios se conectan entre sí de diversas formas, siendo la más común a través de APIs, permitiendo que diferentes equipos trabajen al mismo tiempo en diferentes partes de una aplicación.</p>
+            <p class="novedades-text">Su gran diferenciador es que los distintos componentes del software pueden ser desarrollados y desplegados de forma independiente, pero este no es el único beneficio:</p>
+            <div class="novedades-text">
+                <p><b>•</b> Se <b>refuerza el aislamiento del código</b>, pues al tratarse de componentes separados se puede reducir el impacto que puedan tener los errores de un componente en la totalidad del código (como sucede con las aplicaciones monolíticas) a la vez de que se facilita la reutilización de componentes comunes dentro de la solución.
+                </p>
+                <p><b>• Permite que componentes individuales estén escritos en distintos lenguajes de programación</b>, haciendo posible contar con programadores de distintas especialidades trabajando en el mismo producto.</p>
+                <p><b>• Evolucionar y promover el crecimiento del software</b>. Cuando necesitamos incorporar nuevas funcionalidades no estamos obligados a frenar los cambios, mejoras u optimizaciones que se tengan en curso sobre componentes existentes ya que toda cosa nueva que se pueda agregar se puede hacer en un nuevo microservicio que se va a conectar a los ya existentes. Los microservicios <b>ofrecen simplicidad en la arquitectura de software.</b></p>
+            </div>
+            <p class="novedades-text italic">De monolitos a microservicios</p>
+            <p class="novedades-text">En la medida en que un software evoluciona y se desarrolla, se vuelve más costoso preservar una arquitectura monolítica y son mayores las ventajas de adoptar una arquitectura más flexible que permita y promueva el crecimiento de la empresa.</p>
+            <p class="novedades-text">La <b>arquitectura de microservicios</b> nació como una reacción ante la imposibilidad de continuar escalando aplicaciones. </p>
+            <p class="novedades-text">Esto sucede tarde o temprano con todo software exitoso, independientemente de la calidad del código original o de qué tan buen mantenimiento se le haya dado. En cierto punto, <b>la arquitectura monolítica es simplemente insuficiente para las crecientes demandas de la aplicación.</b></p>
+            <p class="novedades-text">Para la migración de una aplicación monolítica a un microservicio se necesita tiempo y, sobre todo, cualidades técnicas y profesionales específicas para evitar errores o sobrecostos. Para asegurarse de que cualquier migración sea correcta, es conveniente comprender sus ventajas:</p>
+            <div class="novedades-text">
+                <p><b>•Evolución independiente y escalabilidad de los servicios</b> en función de las necesidades de los usuarios. Su independencia favorece a que si un único servicio genera un error, el resto de la aplicación puede seguir funcionando y las mejoras se pueden ir implementando en la medida de lo necesario sin tener que esperar a todos los componentes de la aplicación.</p>
+                <p><b>• Los ciclos de desarrollo se vuelven más rápidos</b>, ya que se reduce el time to market y la comercialización se vuelve más ágil.</p>
+                <p><b>• Los servicios están aislados y son más tolerantes a los errores.</b> Las pruebas son más coherentes y concretas ya que se prueba cada componente de manera aislada para verificar que cumple con los requisitos y los estándares de calidad definidos.</p>
+                <p><b>•</b>Se tiene una visión más objetiva del producto ya que se pueden tomar métricas más exactas y mediante el análisis de las mismas se las pueden generar KPIs basados en el comportamiento de los usuarios y del propio sistema.</p>
+            </div>
             <p class="novedades-text frase">Exisoft | Transformamos grandes empresas en líderes digitales.</p>
         </div>
         <div class="teisa-img"><img src="../../img/novedades/cards/IMAGEN1.jpg" alt="teisa exisoft"></div>
@@ -81,15 +80,15 @@
         <div class="teisa-novedades">
             <div class="teisa-card card-2" onclick="integracionNov()">
                 <h5>Integración de negocios: Claves para una transformación digital exitosa</h5>
-                <p>Elimina por completo el riesgo de pérdida de información y aumenta la eficiencia y productividad de los procesos.</p>
+                <p>La integración de sistemas se encuentra en constante evolución y es por esto que presenta uno de los retos más grandes: mantenerse a la vanguardia.</p>
             </div>
-            <div class="teisa-card card-3">
-                <h5>Ventajas de implementar DevOps en tu empresa</h5>
-                <p>El objetivo de DevOps es garantizar el desarrollo de software más seguro y de mayor calidad.</p>
-            </div>
-            <div class="teisa-card card-4">
+            <div class="teisa-card card-4" onclick="openbankingNov()">
                 <h5>Open Banking: La modernización de las tecnologías financieras</h5>
-                <p>Ofrecer billeteras virtuales a tus clientes es una de las ventajas diferenciales para toda entidad financiera.</p>
+                <p>Un nuevo paradigma en relación a la información que le puede permitir a las entidades contar con la posibilidad de ofrecer productos acordes a cada cliente de manera más ágil y segura.</p>
+            </div>
+            <div class="teisa-card card-3" onclick="devopsNov()">
+                <h5>Ventajas de implementar DevOps en tu empresa</h5>
+                <p>Los equipos adquieren la capacidad de responder mejor a las necesidades de los clientes, aumentar la confianza en las aplicaciones que crean y alcanzar los objetivos empresariales en menos tiempo.</p>
             </div>
         </div>
     </main>

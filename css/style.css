@@ -385,7 +385,7 @@
 
 .marcas-home {
     display: inline-block;
-    animation: slideLeft 30s linear infinite;
+    animation: slideLeft 70s linear infinite;
     position: relative;
     width: 100%;
     height: auto;
@@ -405,7 +405,7 @@
     }
 
     100% {
-        transform: translateX(-300%);
+        transform: translateX(-1000%);
     }
 }
 
@@ -484,7 +484,7 @@
     }
 
     .navbar-width {
-        width: 108%;
+        width: 110%;
     }
 
     .contacto-button {
@@ -498,17 +498,17 @@
 
     .cerrar-menu {
     top: -3.5rem;
-    right: 0;
+    right: -2.5rem;
     font-size: 2rem;
 }
 
     .title-home h1 {
-        transform: translateY(20vh);
-        margin-left: 21%;
+        transform: translateY(30vh);
+        left: 17rem;
     }
 
     .title-home {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .p1-home p {

@@ -102,6 +102,14 @@ function integracion() {
   window.location.href = './pages/novedades/integracion.html';
 }
 
+function openbanking() {
+  window.location.href = './pages/novedades/openbanking.html';
+}
+
+function devops() {
+  window.location.href = './pages/novedades/devops.html';
+}
+
 function nov1() {
   window.location.href = './novedades/integracion.html';
 }
@@ -132,6 +140,22 @@ function integracionNov() {
 
 function sistemasNov() {
   window.location.href = './sistemas.html';
+}
+
+function openbankingNov() {
+  window.location.href = './openbanking.html';
+}
+
+function devopsNov() {
+  window.location.href = './devops.html';
+}
+
+function metodoNov() {
+  window.location.href = './metodo.html';
+}
+
+function hiperautomatizacionNov() {
+  window.location.href = './hiperautomatizacion.html';
 }
 
 function toggleTexto(element) {

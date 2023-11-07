@@ -131,6 +131,7 @@
     transform: translateY(10rem);
     position: relative;
     margin-left: 15%;
+    font-weight: 400;
 }
 
 .subtitle {
@@ -274,7 +275,12 @@
 
 @media (max-width:1600px) {
     .nav-list {
-        padding-top: 8rem;
+        padding-top: 10rem;
+    }
+
+    .navbar-width {
+        width: 110%;
+        height: 120vh;
     }
 
     .contacto-button {
@@ -287,18 +293,18 @@
     }
 
     .cerrar-menu {
-    top: -6.5rem;
-    left: 2rem;
+    top: -3.5rem;
+    left: 2.5rem;
     font-size: 2rem;
 }
 
     .title-home h1 {
-        transform: translateY(5vh);
+        transform: translateY(20vh);
         margin-left: 15%;
     }
 
     .title-home {
-        font-size: 15px;
+        font-size: 1.1rem;
     }
 
     .img-footer {
