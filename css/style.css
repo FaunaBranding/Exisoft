@@ -507,6 +507,15 @@
     font-size: 2rem;
 }
 
+.marcas-home {
+    display: inline-block;
+    animation: slideLeft 70s linear infinite;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5rem;
+}
+
     .title-home h1 {
         transform: translateY(30vh);
         left: 17rem;
@@ -550,7 +559,7 @@
         }
     
         100% {
-            transform: translateX(-350%);
+            transform: translateX(-1000%);
         }
     }
 
