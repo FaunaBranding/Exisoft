@@ -390,7 +390,7 @@
 
 .marcas-home {
     display: inline-block;
-    animation: slideLeft 70s linear infinite;
+    animation: slideLeft 60s linear infinite;
     position: relative;
     width: 100%;
     height: auto;
@@ -406,11 +406,11 @@
 
 @keyframes slideLeft {
     0% {
-        transform: translateX(100%);
+        transform: translateX(0%);
     }
 
     100% {
-        transform: translateX(-1000%);
+        transform: translateX(-810%);
     }
 }
 
@@ -453,7 +453,12 @@
     text-decoration: none;
     font-size: 11px;
     position: relative;
+    font-weight: 700;
     top: -5px;
+}
+
+.img-redes {
+    width: 35%;
 }
 
 .contacto-footer:hover {
@@ -509,7 +514,7 @@
 
 .marcas-home {
     display: inline-block;
-    animation: slideLeft 70s linear infinite;
+    animation: slideLeft 60s linear infinite;
     position: relative;
     width: 100%;
     height: auto;
@@ -555,7 +560,7 @@
 
     @keyframes slideLeft {
         0% {
-            transform: translateX(100%);
+            transform: translateX(0%);
         }
     
         100% {

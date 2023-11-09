@@ -368,7 +368,12 @@
     text-decoration: none;
     font-size: 11px;
     position: relative;
+    font-weight: 700;
     top: -5px;
+}
+
+.img-redes {
+    width: 35%;
 }
 
 .contacto-footer:hover {
@@ -486,6 +491,10 @@
 
     .img-footer {
         height: 2rem;
+    }
+
+    .t2 {
+        font-size: 1.1rem;
     }
 
     .footer {

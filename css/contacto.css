@@ -239,6 +239,14 @@
     padding-right: 30rem;
 }
 
+.img-redes {
+    transition: transform 0.2s;
+}
+
+.img-redes:hover {
+    transform: scale(1.1)
+}
+
 .img-footer {
     height: 3rem;
 }
@@ -264,7 +272,12 @@
     text-decoration: none;
     font-size: 11px;
     position: relative;
+    font-weight: 700;
     top: -5px;
+}
+
+.img-redes-contacto {
+    width: 35%;
 }
 
 .contacto-footer:hover {
