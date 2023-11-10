@@ -385,12 +385,12 @@
     width: 100%;
     overflow: hidden;
     white-space: nowrap;
-    margin-top: 2rem;
+    margin-top: 0rem;
 }
 
 .marcas-home {
     display: inline-block;
-    animation: slideLeft 60s linear infinite;
+    animation: slideLeft 90s linear infinite;
     position: relative;
     width: 100%;
     height: auto;
@@ -410,22 +410,8 @@
     }
 
     100% {
-        transform: translateX(-810%);
+        transform: translateX(-1150%);
     }
-}
-
-#chaco {
-    position: relative;
-    top: 1rem;
-}
-
-#patagonia, #colombia {
-    position: relative;
-    top: -2rem;
-}
-
-#itau {
-    width: 5%;
 }
 
 .bgc-footer {
@@ -514,7 +500,7 @@
 
 .marcas-home {
     display: inline-block;
-    animation: slideLeft 60s linear infinite;
+    animation: slideLeft 90s linear infinite;
     position: relative;
     width: 100%;
     height: auto;
@@ -564,7 +550,7 @@
         }
     
         100% {
-            transform: translateX(-1000%);
+            transform: translateX(-1300%);
         }
     }
 
