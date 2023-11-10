@@ -103,7 +103,7 @@
 
 .cerrar-menu {
     top: -10.8rem;
-    right: -1.50rem;
+    right: -0.5rem;
     font-size: 2rem;
 }
 
@@ -494,7 +494,7 @@
 
     .cerrar-menu {
     top: -3.75rem;
-    right: 1.5rem;
+    left: 0rem;
     font-size: 2rem;
 }
 
