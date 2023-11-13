@@ -385,12 +385,12 @@
     width: 100%;
     overflow: hidden;
     white-space: nowrap;
-    margin-top: 0rem;
+    margin-top: 1rem;
 }
 
 .marcas-home {
     display: inline-block;
-    animation: slideLeft 140s linear infinite;
+    animation: slideLeft 160s linear infinite;
     position: relative;
     width: 100%;
     height: auto;
@@ -400,8 +400,7 @@
 .marcas-home img {
     display: inline-block;
     height: auto;
-    width: 8%;
-    margin-left: 10rem;
+    width: 100%;
 }
 
 @keyframes slideLeft {
@@ -410,7 +409,7 @@
     }
 
     100% {
-        transform: translateX(-1150%);
+        transform: translateX(-1500%);
     }
 }
 
@@ -500,7 +499,7 @@
 
 .marcas-home {
     display: inline-block;
-    animation: slideLeft 140s linear infinite;
+    animation: slideLeft 180s linear infinite;
     position: relative;
     width: 100%;
     height: auto;
@@ -550,7 +549,7 @@
         }
     
         100% {
-            transform: translateX(-1300%);
+            transform: translateX(-1400%);
         }
     }
 
