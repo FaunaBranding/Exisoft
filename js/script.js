@@ -159,12 +159,10 @@ function hiperautomatizacionNov() {
 }
 
 function toggleTexto(element) {
-  var texto = element.parentElement.parentElement.querySelector('.texto');
-  if (texto.style.display === "none") {
-      texto.style.display = "block";
-      element.innerText = "▲";
+  var texto = element.nextElementSibling;
+  if (texto.style.display === "none" || texto.style.display === "") {
+    texto.style.display = "block";
   } else {
-      texto.style.display = "none";
-      element.innerText = "▼";
+    texto.style.display = "none";
   }
 }
