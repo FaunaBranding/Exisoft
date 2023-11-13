@@ -227,30 +227,40 @@
     font-size: 15px;
     text-align: center;
     margin-top: 5rem;
+    margin-bottom: 2rem;
 }
 
 .marcas-servicios {
     display: flex;
     justify-content: center;
-    display: inline-block;
+    align-items: center;
     margin-bottom: 4rem;
-    white-space: nowrap;
-    margin-left: 10%;
+    gap: 10rem;
+    margin-left: -2rem;
 }
 
 .marcas-servicios img {
+    width: 8%;
+}
+
+#aws {
+    width: 4%;
+}
+
+#ibm {
+    width: 6%;
+}
+
+#red {
     width: 10%;
-    margin-left: 7rem;
 }
 
-#microsoft {
-    position: relative;
-    top: -1rem;
+#wso2 {
+    width: 7%;
 }
 
-#oracle, #nexsys {
-    position: relative;
-    top: -2.5rem;
+#nexsys {
+    width: 9%;
 }
 
 .servicios-img {
@@ -600,13 +610,9 @@
         width: 60%;
         margin-left: 17%;
     }
-    
-    #oracle, #nexsys {
-        top: -2rem;
-    }
 
     .marcas-servicios {
-        margin-left: 0;
+        gap: 8rem;
     }
 
     .img-footer {
