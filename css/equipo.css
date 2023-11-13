@@ -296,7 +296,7 @@
     font-size: 30px;
     font-weight: normal;
     margin-left: 20%;
-    margin-right: 25vw;
+    width: 50%;
 }
 
 .fotos-equipo {
@@ -489,7 +489,6 @@
 .img-redes {
     width: 35%;
 }
-
 
 .contacto-footer:hover {
     color: #dfdfdf;

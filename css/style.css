@@ -390,7 +390,7 @@
 
 .marcas-home {
     display: inline-block;
-    animation: slideLeft 90s linear infinite;
+    animation: slideLeft 140s linear infinite;
     position: relative;
     width: 100%;
     height: auto;
@@ -500,7 +500,7 @@
 
 .marcas-home {
     display: inline-block;
-    animation: slideLeft 90s linear infinite;
+    animation: slideLeft 140s linear infinite;
     position: relative;
     width: 100%;
     height: auto;
