@@ -565,3 +565,169 @@
         padding-right: 20%;
     }
 }
+
+@media (max-width:768px) {
+
+    .nav-list {
+        padding-top: 15rem;
+        padding-left: 1.5rem;
+        height: 120vh;
+    }
+
+    .navbar-width {
+        width: 120%;
+    }
+
+    .contacto-button {
+        font-size: 12px;
+        font-weight: 700;
+        background: #0056D5;
+        padding: 0.3rem 1.5rem 0.3rem 1.5rem;
+        border-radius: 20px;
+        margin-left: 25vw;
+    }
+
+    .cerrar-menu {
+        top: -8.75rem;
+        left: 0rem;
+        font-size: 2rem;
+    }
+
+    .title-home h1 {
+        transform: translateY(30vh);
+        left: 3rem;
+        width: 90%;
+    }
+
+    .title-home {
+        font-size: 1rem;
+    }
+
+    .p1-home p {
+        width: 90%;
+    }
+
+    .p1-home {
+        margin-left: 10%;
+    }
+
+    .title-servicios-home {
+        margin-left: 10%;
+        margin-bottom: 20%;
+    }
+
+    .servicios-cards {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5rem;
+    }
+    
+    .card {
+        display: flex;
+        align-items: center;
+        background: #fff;
+        padding: 0rem;
+        margin: 1rem;
+        font-size: 20px;
+        text-align: center;
+        border-radius: 30px;
+        color: #424243;
+        margin-bottom: 10rem;
+        transition: transform 0.3s;
+    }
+
+    .card:hover {
+        transform: scale(1.02);
+    }
+    
+    .card-title-padding {
+        padding-bottom: 2rem;
+    }
+    
+    .card-img {
+        margin-bottom: 3rem;
+    }
+    
+    .card-img2 {
+        margin-bottom: 4rem;
+    }
+    
+    .a-card {
+        text-decoration: none;
+        font-size: 18px;
+        color: #fff;
+        background: #0056D5;
+        padding: 0.2rem 2rem 0.7rem 2rem;
+        border-radius: 20px;
+        font-weight: 700;
+    }
+
+    .hidden-mobile {
+        display: none;
+    }
+
+    .casos-home-sancor {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../img/backgrounds/sancor-mobile.png");
+        height: 25vh;
+        background-size: cover;
+        z-index: 0;
+      }
+    
+      .casos-home-pampa {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../img/backgrounds/pampa-mobile.png");
+        height: 25vh;
+        background-size: cover;
+        z-index: 0;
+      }
+
+      .title-novedades {
+        margin-left: 10%;
+        margin-top: 3rem;
+      }
+
+      .marcas-mobile {
+        display: flex;
+        justify-content: center;
+      }
+
+      .marcas-title {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        margin-top: 3rem;
+      }
+
+      .marcas-home img {
+        width: 300%;
+      }
+
+      .marcas-home {
+        animation: slideLeft 70s linear infinite;
+      }
+
+      @keyframes slideLeft {
+        0% {
+            transform: translateX(0%);
+        }
+    
+        100% {
+            transform: translateX(-2500%);
+        }
+
+    }
+
+    .exi-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-footer {
+        margin-left: 100%;
+    }
+
+    .p-footer {
+        margin-bottom: 3rem;
+    }
+}

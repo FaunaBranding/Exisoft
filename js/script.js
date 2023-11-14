@@ -46,24 +46,6 @@ $(document).ready(function() {
   }, 4000);
 });
 
-  function uploadFile() {
-    const fileInput = document.getElementById('fileInput');
-    const uploadedFileLink = document.getElementById('uploadedFileLink');
-    const file = fileInput.files[0];
-    const fileReader = new FileReader();
-
-    fileReader.onload = function (e) {
-        const fileURL = e.target.result;
-        const fileName = file.name;
-        const link = document.createElement('a');
-        link.href = fileURL;
-        link.innerText = fileName;
-        uploadedFileLink.appendChild(link);
-    }
-
-    fileReader.readAsDataURL(file);
-}
-
 function showText() {
   var overlay = document.getElementById('overlay');
   overlay.style.opacity = "1";
@@ -73,26 +55,6 @@ function hideText() {
   var overlay = document.getElementById('overlay');
   overlay.style.opacity = "0";
 }
-
-const btn = document.getElementById('button');
-
-document.getElementById('sumate-form')
- .addEventListener('submit', function(event) {
-   event.preventDefault();
-
-   btn.value = 'Enviando...';
-
-   const serviceID = 'default_service';
-   const templateID = 'template_pateon4';
-
-   emailjs.sendForm(serviceID, templateID, this)
-    .then(() => {
-      btn.value = '¡Correo Enviado!';
-    }, (err) => {
-      btn.value = '¡Correo Enviado!';
-      alert(JSON.stringify(err));
-    });
-});
 
 function sistemas() {
   window.location.href = './pages/novedades/sistemas.html';
