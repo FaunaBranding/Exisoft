@@ -290,6 +290,10 @@
     margin-top: 3rem;
 }
 
+.on-mobile {
+    display: none;
+}
+
 @media (max-width:1600px) {
     .nav-list {
         padding-top: 10rem;
@@ -330,5 +334,103 @@
 
     .footer {
         padding-right: 20%;
+    }
+}
+
+@media (max-width:768px) {
+    .nav-home {
+        background-color: #000;
+    }
+
+    .background-home {
+        height: 40vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/backgrounds/background-contacto-mobile.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .nav-list {
+        padding-top: 15rem;
+        padding-left: 1.5rem;
+        height: 120vh;
+    }
+
+    .navbar-width {
+        width: 120%;
+    }
+
+    .contacto-button {
+        font-size: 12px;
+        font-weight: 700;
+        background: #0056D5;
+        padding: 0.3rem 1.5rem 0.3rem 1.5rem;
+        border-radius: 20px;
+        margin-left: 25vw;
+    }
+
+    .cerrar-menu {
+        top: -8.75rem;
+        left: 0rem;
+        font-size: 2rem;
+    }
+
+    .title-home h1 {
+        transform: translateY(18vh);
+        left: -3rem;
+        width: 90%;
+    }
+
+    .title-home {
+        font-size: 0.9rem;
+    }
+
+    .hidden-mobile {
+        display: none;
+    }
+
+    .on-mobile {
+        display: block;
+    }
+
+    .contacto {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .input-form {
+        width: 80vw;
+    }
+
+    .textarea-form {
+        width: 80vw;
+    }
+
+    .contacto-column-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-form-button {
+        justify-content: center;
+        margin-bottom: 5rem;
+    }
+
+    .exi-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-mobile {
+        width: 45%;
+        margin-left: 40%;
+    }
+
+    .p-footer {
+        margin-bottom: 3rem;
+        margin-top: -2rem;
     }
 }

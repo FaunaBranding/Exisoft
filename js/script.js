@@ -120,6 +120,22 @@ function hiperautomatizacionNov() {
   window.location.href = './hiperautomatizacion.html';
 }
 
+function casosPampa () {
+  window.location.href = './casos/pampa.html';
+}
+
+function casosSancor () {
+  window.location.href = './casos/sancor.html';
+}
+
+function sancor () {
+  window.location.href = './sancor.html';
+}
+
+function pampa () {
+  window.location.href = './pampa.html';
+}
+
 function toggleTexto(element) {
   var texto = element.nextElementSibling;
   if (texto.style.display === "none" || texto.style.display === "") {

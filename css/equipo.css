@@ -504,6 +504,10 @@
     font-weight: 500;
 }
 
+.on-mobile {
+    display: none;
+}
+
 @media (max-width:1600px) {
 
     .nav-list {
@@ -611,5 +615,127 @@
 
     .footer {
         padding-right: 20%;
+    }
+}
+
+@media (max-width:768px) {
+
+    .nav-home {
+        background-color: #000;
+    }
+
+    .nav-list {
+        padding-top: 15rem;
+        padding-left: 1.5rem;
+        height: 120vh;
+    }
+
+    .navbar-width {
+        width: 120%;
+    }
+
+    .contacto-button {
+        font-size: 12px;
+        font-weight: 700;
+        background: #0056D5;
+        padding: 0.3rem 1.5rem 0.3rem 1.5rem;
+        border-radius: 20px;
+        margin-left: 25vw;
+    }
+
+    .cerrar-menu {
+        top: -8.75rem;
+        left: 0rem;
+        font-size: 2rem;
+    }
+
+    .title-home h1 {
+        transform: translateY(18vh);
+        left: -3rem;
+        width: 90%;
+    }
+
+    .title-home {
+        font-size: 0.9rem;
+    }
+
+    .hidden-mobile {
+        display: none;
+    }
+
+    .on-mobile {
+        display: block;
+    }
+
+    .equipo {
+        margin-top: 0;
+        flex-direction: column;
+    }
+
+    .equipo2 {
+        flex-direction: column;
+    }
+
+    .img-equipo2 {
+        width: 97vw;
+    }
+
+    .title-frase {
+        margin-left: 10%;
+        width: 80vw;
+    }
+
+    .exi-frase {
+        margin-left: 10%;
+    }
+
+    .nuestro-title {
+        margin-left: 10%;
+    }
+
+    .nuestro-text {
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .carrousel {
+        height: 40vh;
+        width: 100%;
+        background-position: center center;
+    }
+
+    .sumate-title {
+        margin-left: 10%;
+        width: 60%;
+        padding-top: 3rem;
+    }
+
+    .sumate-text {
+        margin-left: 10%;
+        font-size: 1.5rem;
+    }
+
+    .sumate-form {
+        margin-left: 10%;
+    }
+
+    #nombre, #rol, #email {
+        width: 75vw;
+    }
+
+    .exi-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-mobile {
+        width: 45%;
+        margin-left: 40%;
+    }
+
+    .p-footer {
+        margin-bottom: 3rem;
+        margin-top: -2rem;
     }
 }

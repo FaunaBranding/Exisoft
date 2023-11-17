@@ -390,6 +390,10 @@
     margin-top: 3rem;
 }
 
+.on-mobile {
+    display: none;
+}
+
 @media (max-width:1600px) {
     .nav-list {
         padding-top: 10rem;
@@ -468,5 +472,88 @@
     .teisa-card h5 {
         margin-top: 35%;
         font-size: 1.2rem;
+    }
+}
+
+@media (max-width:768px) {
+    .nav-home {
+        background-color: #000;
+    }
+
+    .background {
+        height: 40vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/backgrounds/background-novedades-mobile.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .nav-list {
+        padding-top: 15rem;
+        padding-left: 1.5rem;
+        height: 120vh;
+    }
+
+    .navbar-width {
+        width: 120%;
+    }
+
+    .contacto-button {
+        font-size: 12px;
+        font-weight: 700;
+        background: #0056D5;
+        padding: 0.3rem 1.5rem 0.3rem 1.5rem;
+        border-radius: 20px;
+        margin-left: 25vw;
+    }
+
+    .cerrar-menu {
+        top: -8.75rem;
+        left: 0rem;
+        font-size: 2rem;
+    }
+
+    .title-home h1 {
+        transform: translateY(21vh);
+        left: -3rem;
+        width: 90%;
+    }
+
+    .title-home {
+        font-size: 1rem;
+    }
+
+    .hidden-mobile {
+        display: none;
+    }
+
+    .on-mobile {
+        display: block;
+    }
+
+    .novedades-title {
+        margin-left: 10%;
+        width: 80vw;
+    }
+
+    .cards-novedades {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+    }
+
+    .exi-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-mobile {
+        width: 45%;
+        margin-left: 40%;
+    }
+
+    .p-footer {
+        margin-bottom: 3rem;
+        margin-top: -2rem;
     }
 }

@@ -219,6 +219,7 @@
 
 .conoce-mas {
     width: 70%;
+    z-index: 1;
 }
 
 .marcas-title {
@@ -489,6 +490,10 @@
     font-weight: 400;
 }
 
+.on-mobile {
+    display: none;
+}
+
 @media (max-width:1600px) {
     
     .nav-list {
@@ -621,5 +626,211 @@
 
     .footer {
         padding-right: 20%;
+    }
+}
+
+@media (max-width:768px) {
+    .nav-home {
+        background-color: #000;
+    }
+
+    .background-modernizacion {
+        height: 35vh;
+        background-image: url("../img/backgrounds/modernizacion-mobile.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .background-integracion {
+        height: 35vh;
+        background-image: url("../img/backgrounds/integracion-mobile.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .background-automatizacion {
+        height: 35vh;
+        background-image: url("../img/backgrounds/automatizacion-mobile.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .background-home {
+        height: 40vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/backgrounds/background-servicios-mobile.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .nav-list {
+        padding-top: 15rem;
+        padding-left: 1.5rem;
+        height: 120vh;
+    }
+
+    .navbar-width {
+        width: 120%;
+    }
+
+    .contacto-button {
+        font-size: 12px;
+        font-weight: 700;
+        background: #0056D5;
+        padding: 0.3rem 1.5rem 0.3rem 1.5rem;
+        border-radius: 20px;
+        margin-left: 25vw;
+    }
+
+    .cerrar-menu {
+        top: -8.75rem;
+        left: 0rem;
+        font-size: 2rem;
+    }
+
+    .title-home h1 {
+        transform: translateY(21vh);
+        left: -3rem;
+        width: 90%;
+    }
+
+    .title-home {
+        font-size: 1rem;
+    }
+
+    .hidden-mobile {
+        display: none;
+    }
+
+    .on-mobile {
+        display: block;
+    }
+
+    .metodo img {
+        width: 100%;
+    }
+
+    .title-metodo {
+        width: 70%;
+        font-size: 1.5rem;
+    }
+
+    .title-metodo-div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .conoce {
+        padding-top: 3rem;
+    }
+
+    .title-conoce {
+        font-size: 2rem;
+        width: 60%;
+        text-align: left;
+        margin-left: 10%;
+        padding-bottom: 3rem;
+    }
+
+    .card-conoce {
+        margin-left: 0;
+        padding-left: 2rem;
+    }
+
+    .img-conoce-mobile {
+        width: 95%;
+        z-index: 0;
+    }
+
+    .conoce-button {
+        top: 10.5rem;
+        right: 35%;
+    }
+
+    .conoce-mas {
+        width: 550%;
+    }
+
+    .marcas-title {
+        margin-top: 2rem;
+        font-size: 1rem;
+    }
+
+    .marcas-servicios {
+        gap: 2rem;
+        margin-left: 0;
+    }
+
+    #aws {
+        width: 8%;
+    }
+    
+    #ibm {
+        width: 10%;
+    }
+    
+    #red {
+        width: 17%;
+    }
+    
+    #wso2 {
+        width: 12%;
+    }
+    
+    #nexsys {
+        width: 17%;
+    }
+
+    .recursos img {
+        width: 25%;
+    }
+
+    .servicios-hr {
+        width: 40%;
+    }
+
+    .autor-text h4 {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    .autor-mobile {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+        margin-left: 10%;
+    }
+
+    .autor-mobile img {
+        width: 40%;
+    }
+
+    .servicios-autor img {
+        margin-left: 0;
+    }
+
+    .autor-mobile-text h5 {
+        font-weight: 700;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .autor-mobile-text p {
+        width: 100%;
+    }
+
+    .exi-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-mobile {
+        width: 45%;
+        margin-left: 40%;
+    }
+
+    .p-footer {
+        margin-bottom: 3rem;
+        margin-top: -2rem;
     }
 }
