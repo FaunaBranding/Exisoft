@@ -710,7 +710,7 @@
 
     .title-metodo {
         width: 70%;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .title-metodo-div {
@@ -736,7 +736,7 @@
     }
 
     .img-conoce-mobile {
-        width: 95%;
+        width: 100%;
         z-index: 0;
     }
 
@@ -746,7 +746,7 @@
     }
 
     .conoce-mas {
-        width: 550%;
+        width: 650%;
     }
 
     .marcas-title {
