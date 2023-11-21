@@ -365,18 +365,18 @@
         background: #0056D5;
         padding: 0.3rem 1.5rem 0.3rem 1.5rem;
         border-radius: 20px;
-        margin-left: 25vw;
+        margin-left: 12vw;
     }
 
     .cerrar-menu {
         top: -8.75rem;
-        left: 0rem;
+        left: 1.6rem;
         font-size: 2rem;
     }
 
     .title-home h1 {
         transform: translateY(18vh);
-        left: -3rem;
+        left: -2rem;
         width: 90%;
     }
 

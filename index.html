@@ -35,13 +35,19 @@
                         </nav>
                 </ul>
             </nav>
-            <div class="title-home" id="title-home">
+            <div class="title-home hidden-mobile" id="title-home">
                 <h1>TE ACOMPAÑAMOS EN EL CAMINO</h1>
                 <h1>HACIA LA ADOPCIÓN DE UNA CULTURA DIGITAL</h1>
             </div>
+            <div class="title-home on-mobile" id="title-home">
+                <h1>TE ACOMPAÑAMOS EN EL CAMINO HACIA LA ADOPCIÓN DE UNA CULTURA DIGITAL</h1>
+            </div>
         </div>
-        <div class="video-container">
+        <div class="video-container hidden-mobile">
             <video id="video-background" class="video" muted autoplay loop src="./img/backgrounds/background-home.mp4"></video>
+        </div>
+        <div class="video-container on-mobile">
+            <video id="video-background" class="video" muted autoplay loop src="./img/backgrounds/background-home-mobile.mp4"></video>
         </div>
     </header>
     <main class="bgc-main">
@@ -67,14 +73,14 @@
                     <div class="card-text-mobile">
                         <h3>Modernización</h3>
                         <h3 class="card-title-padding">de aplicaciones</h3>
-                        <a class="a-card" href="./pages/servicios/modernizacion.html">Conocé más</a>
+                        <a href="./pages/servicios/modernizacion.html"><img class="img-button" src="./img/servicios/conoce-mas.png" alt=""></a>
                     </div>
                     <div><img class="card-img" src="./img/cards/modernizacion.png" alt="aplicaciones"></div>
                 </div>
                 <div class="card hidden-mobile">
                     <div>
-                        <h3>Integración de</h3>
-                        <h3 class="card-title-padding">negocios</h3>
+                        <h3>Integración</h3>
+                        <h3 class="card-title-padding">de negocios</h3>
                     </div>
                     <img class="card-img2" src="./img/cards/integracion.png" alt="aplicaciones">
                     <br>
@@ -82,9 +88,9 @@
                 </div>
                 <div class="card on-mobile-card">
                     <div class="card-text-mobile">
-                        <h3>Integración de</h3>
-                        <h3 class="card-title-padding">negocios</h3>
-                        <a class="a-card" href="./pages/servicios/integracion.html">Conocé más</a>
+                        <h3>Integración</h3>
+                        <h3 class="card-title-padding">de negocios</h3>
+                        <a href="./pages/servicios/modernizacion.html"><img class="img-button" src="./img/servicios/conoce-mas.png" alt=""></a>
                     </div>
                     <div><img class="card-img" src="./img/cards/integracion.png" alt="aplicaciones"></div>
                 </div>
@@ -101,22 +107,28 @@
                     <div class="card-text-mobile">
                         <h3>Automatización</h3>
                         <h3 class="card-title-padding">de procesos</h3>
-                        <a class="a-card" href="./pages/servicios/automatizacion.html">Conocé más</a>
+                        <a href="./pages/servicios/modernizacion.html"><img class="img-button" src="./img/servicios/conoce-mas.png" alt=""></a>
                     </div>
                     <div><img class="card-img" src="./img/cards/automatizacion.png" alt="aplicaciones"></div>
                 </div>
             </div>
         </div>
         <div class="slider">
-            <div class="casos-home-sancor active">
+            <div class="casos-home-sancor casos-flex active">
               <h2 class="title-casos light">SANCOR SEGUROS</h2>
               <p class="text-casos mb hidden-mobile">"Exisoft cuenta con la experiencia y conocimiento probado en el mercado, y agrega importante valor como socio estratégico al acompañar a Grupo Sancor Seguros a transitar el camino hacia alcanzar su liderazgo digital"</p>
-              <a href="./pages/casos/sancor.html" class="button-casos">Conocé el caso de estudio</a>
-            </div>
-            <div class="casos-home-pampa" style="display: none;">
+              <a href="./pages/casos/sancor.html" class="button-casos hidden-mobile">Conocé el caso de estudio</a>
+              <div>
+                <a href="./pages/casos/sancor.html"><img class="img-casos on-mobile" src="./img/casos/conoce.png" alt="conoce"></a>
+              </div>
+            </div class="on-mobile">
+            <div class="casos-home-pampa casos-flex" style="display: none;">
               <h2 class="title-casos light">PAMPA ENERGÍA</h2>
               <p class="text-casos mb hidden-mobile">"Cuando uno busca una consultora, busca un socio y un equipo que nos respalde. Eso lo pude encontrar en Exisoft."</p>
-              <a href="./pages/casos/pampa.html" class="button-casos">Conocé el caso de estudio</a>
+              <a href="./pages/casos/pampa.html" class="button-casos hidden-mobile">Conocé el caso de estudio</a>
+              <div class="on-mobile">
+                <a href="./pages/casos/sancor.html"><img class="img-casos" src="./img/casos/conoce.png" alt="conoce"></a>
+              </div>
             </div>
           </div>
         <div class="novedades-home">

@@ -476,8 +476,9 @@
 }
 
 @media (max-width:768px) {
+
     .nav-home {
-        background-color: #000;
+        background: #000;
     }
 
     .background {
@@ -485,6 +486,30 @@
         background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/backgrounds/background-novedades-mobile.png");
         background-size: cover;
         background-repeat: no-repeat;
+    }
+
+    .sistemas {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/novedades/cards/PORTADA1.jpg");
+    }
+    
+    .integracion {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/novedades/cards/PORTADA2.jpg");
+    }
+    
+    .openbanking {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/novedades/cards/PORTADA4.jpg");
+    }
+    
+    .devops {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/novedades/cards/PORTADA3.jpg");
+    }
+    
+    .metodo {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/novedades/cards/PORTADA5.jpg");
+    }
+    
+    .hiperautomatizacion {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/novedades/cards/PORTADA6.jpg");
     }
 
     .nav-list {
@@ -503,23 +528,70 @@
         background: #0056D5;
         padding: 0.3rem 1.5rem 0.3rem 1.5rem;
         border-radius: 20px;
-        margin-left: 25vw;
+        margin-left: 12vw;
     }
 
     .cerrar-menu {
         top: -8.75rem;
-        left: 0rem;
+        left: 1.6rem;
         font-size: 2rem;
     }
 
     .title-home h1 {
         transform: translateY(21vh);
-        left: -3rem;
-        width: 90%;
+        left: -2rem;
+        width: 80%;
     }
 
     .title-home {
         font-size: 1rem;
+    }
+
+    .title-teisa h1 {
+        transform: translateY(9rem);
+        position: relative;
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+        font-weight: 400;
+    }
+    
+    .title-teisa h2 {
+        transform: translateY(9rem);
+        position: relative;
+        margin-left: 2rem;
+        width: 60%;
+        color: #fff;
+        font-weight: normal;
+        font-size: 1rem;
+    }
+
+    .novedades-text {
+        width: 80vw;
+        margin-left: 10%;
+    }
+
+    .teisa-img {
+        width: 100%;
+        height: 20vh;
+    }
+
+    .teisa-card {
+        width: 80%;
+        height: 35vh;
+    }
+
+    .teisa-card h5 {
+        width: 80%;
+        margin-top: 30%;
+    }
+
+    .teisa-card p {
+        width: 80%;
+    }
+
+    .teisa {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
 
     .hidden-mobile {
@@ -537,8 +609,9 @@
 
     .cards-novedades {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 0;
+        margin-left: 15%;
     }
 
     .exi-mobile {

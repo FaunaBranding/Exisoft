@@ -621,7 +621,7 @@
 @media (max-width:768px) {
 
     .nav-home {
-        background-color: #000;
+        background: #000;
     }
 
     .nav-list {
@@ -640,17 +640,17 @@
         background: #0056D5;
         padding: 0.3rem 1.5rem 0.3rem 1.5rem;
         border-radius: 20px;
-        margin-left: 25vw;
+        margin-left: 12vw;
     }
 
     .cerrar-menu {
         top: -8.75rem;
-        left: 0rem;
+        left: 1.6rem;
         font-size: 2rem;
     }
 
     .title-home h1 {
-        transform: translateY(18vh);
+        transform: translateY(15vh);
         left: -3rem;
         width: 90%;
     }
@@ -699,9 +699,33 @@
     }
 
     .carrousel {
-        height: 40vh;
-        width: 100%;
-        background-position: center center;
+        background-image: url(../img/carousel-equipo/1-mobile.png);
+        background-size: cover;
+        animation: animate 15s infinite;
+        height: 55vh;
+    }
+
+    @keyframes animate {
+        20% {
+            background-image: url(../img/carousel-equipo/5-mobile.png);
+            background-size: cover;
+        }
+        40% {
+            background-image: url(../img/carousel-equipo/4-mobile.png);
+            background-size: cover;
+        }
+        60% {
+            background-image: url(../img/carousel-equipo/3-mobile.png);
+            background-size: cover;
+        }
+        80% {
+            background-image: url(../img/carousel-equipo/2-mobile.png);
+            background-size: cover;
+        }
+        100% {
+            background-image: url(../img/carousel-equipo/1-mobile.png);
+            background-size: cover;
+        }
     }
 
     .sumate-title {

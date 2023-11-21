@@ -596,23 +596,32 @@
         background: #0056D5;
         padding: 0.3rem 1.5rem 0.3rem 1.5rem;
         border-radius: 20px;
-        margin-left: 25vw;
+        margin-left: 12vw;
     }
 
     .cerrar-menu {
         top: -8.75rem;
-        left: 0rem;
+        left: 1.4rem;
         font-size: 2rem;
     }
 
+    .video-container {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        top: 0;
+        z-index: -1;
+        height: 70vh;
+    }
+
     .title-home h1 {
-        transform: translateY(33vh);
+        transform: translateY(26vh);
         left: 2rem;
-        width: 90%;
+        width: 80%;
     }
 
     .title-home {
-        font-size: 0.9rem;
+        font-size: 1.1rem;
     }
 
     .p1-home p {
@@ -648,14 +657,14 @@
         align-items: center;
         background: #fff;
         padding: 0rem;
-        margin: 2rem;
-        font-size: 20px;
+        margin: 1rem;
+        font-size: 15px;
         text-align: center;
         border-radius: 15px;
         color: #424243;
         margin-bottom: 0rem;
         transition: transform 0.3s;
-        padding: 1.5rem 2rem 1.5rem 2rem;
+        padding: 1rem 2rem 1rem 2rem;
     }
 
     .card:hover {
@@ -672,34 +681,44 @@
     
     .card-img {
         margin-bottom: 0rem;
-        width: 60%;
-        margin-left: 5rem;
+        width: 100%;
+        margin-left: 0;
     }
     
-    .a-card {
-        text-decoration: none;
-        font-size: 12px;
-        color: #fff;
-        background: #0056D5;
-        padding: 0.5rem 2rem 0.5rem 2rem;
-        border-radius: 20px;
-        font-weight: 700;
+    .img-button {
+        width: 80%;
     }
 
     .hidden-mobile {
         display: none;
     }
 
+    .casos-flex {
+        display: flex;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .img-casos {
+        width: 90%;
+    }
+
+    .title-casos {
+        font-size: 1.8rem;
+        margin-top: -2rem;
+        margin-left: 3rem;
+    }
+
     .casos-home-sancor {
         background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../img/backgrounds/sancor-mobile.png");
-        height: 25vh;
+        height: 22vh;
         background-size: cover;
         z-index: 0;
       }
     
       .casos-home-pampa {
         background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../img/backgrounds/pampa-mobile.png");
-        height: 25vh;
+        height: 22vh;
         background-size: cover;
         z-index: 0;
       }
