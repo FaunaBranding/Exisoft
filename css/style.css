@@ -651,6 +651,60 @@
         flex-direction: column;
         gap: 1rem;
     }
+
+    .card-nov {
+        height: 28rem;
+        width: 17.6rem;
+        background-color: #fff;
+        margin-bottom: 5rem;
+        border-radius: 5px;
+        box-shadow: 0 3px 5px #999;
+        cursor: pointer;
+        transition: none;
+        margin-left: 1.2rem;
+        transition: transform 0s all;
+        transform: scale(0.9);
+    }
+
+    .card-nov:hover {
+        transform: scale(0.9);
+    }
+
+    .carousel-container {
+        position: relative;
+        overflow: hidden;
+        width: 80%;
+        margin: 50px auto;
+    }
+    
+    .carousel-wrapper {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    .carousel-slide {
+        min-width: 100%;
+    }
+    
+    .carousel-prev,
+    .carousel-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 20px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        outline: none;
+    }
+    
+    .carousel-prev {
+        left: 0;
+    }
+    
+    .carousel-next {
+        right: 0;
+    }
     
     .card {
         display: flex;
@@ -663,12 +717,8 @@
         border-radius: 15px;
         color: #424243;
         margin-bottom: 0rem;
-        transition: transform 0.3s;
+        transition: none;
         padding: 1rem 2rem 1rem 2rem;
-    }
-
-    .card:hover {
-        transform: scale(1.02);
     }
     
     .card-title-padding {
@@ -742,6 +792,7 @@
 
       .marcas-home img {
         width: 300%;
+        margin-left: -5rem;
       }
 
       .marcas-home {

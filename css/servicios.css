@@ -636,21 +636,21 @@
 
     .background-modernizacion {
         height: 35vh;
-        background-image: url("../img/backgrounds/modernizacion-mobile.png");
+        background-image: url("../img/backgrounds/modernizacion-mobile.jpg");
         background-size: cover;
         background-repeat: no-repeat;
     }
     
     .background-integracion {
         height: 35vh;
-        background-image: url("../img/backgrounds/integracion-mobile.png");
+        background-image: url("../img/backgrounds/integracion-mobile.jpg");
         background-size: cover;
         background-repeat: no-repeat;
     }
     
     .background-automatizacion {
         height: 35vh;
-        background-image: url("../img/backgrounds/automatizacion-mobile.png");
+        background-image: url("../img/backgrounds/automatizacion-mobile.jpg");
         background-size: cover;
         background-repeat: no-repeat;
     }
