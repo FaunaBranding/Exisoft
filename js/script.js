@@ -136,6 +136,18 @@ function pampa () {
   window.location.href = './pampa.html';
 }
 
+function modernizacion () {
+  window.location.href = './pages/servicios/modernizacion.html'
+}
+
+function integracion () {
+  window.location.href = './pages/servicios/integracion.html'
+}
+
+function automatizacion () {
+  window.location.href = './pages/servicios/automatizacion.html'
+}
+
 function toggleTexto(element) {
   var texto = element.nextElementSibling;
   if (texto.style.display === "none" || texto.style.display === "") {

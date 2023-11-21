@@ -607,7 +607,7 @@
 
     .video-container {
         position: relative;
-        width: 100%;
+        min-width: 100%;
         overflow: hidden;
         top: 4rem;
         z-index: -1;
@@ -656,7 +656,7 @@
         height: 28rem;
         width: 17.6rem;
         background-color: #fff;
-        margin-bottom: 5rem;
+        margin-bottom: 3rem;
         border-radius: 5px;
         box-shadow: 0 3px 5px #999;
         cursor: pointer;
@@ -734,6 +734,11 @@
         width: 100%;
         margin-left: 0;
     }
+
+    .notas-nov {
+        display: flex;
+        margin-top: 5rem;
+    }
     
     .img-button {
         width: 80%;
@@ -761,14 +766,14 @@
 
     .casos-home-sancor {
         background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../img/backgrounds/sancor-mobile.png");
-        height: 22vh;
+        height: 23vh;
         background-size: cover;
         z-index: 0;
       }
     
       .casos-home-pampa {
         background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../img/backgrounds/pampa-mobile.png");
-        height: 22vh;
+        height: 23vh;
         background-size: cover;
         z-index: 0;
       }
