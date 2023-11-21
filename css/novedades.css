@@ -630,9 +630,26 @@
 
     .cards-novedades {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 0;
-        margin-left: 15%;
+        margin-left: 5%;
+    }
+
+    .card-nov {
+        width: 10rem;
+        height: 17rem;
+    }
+
+    .date-card-nov {
+        font-size: 8px;
+    }
+
+    .title-card-nov {
+        font-size: 0.8rem;
+    }
+
+    .img-card-nov {
+        width: 100%;
     }
 
     .exi-mobile {

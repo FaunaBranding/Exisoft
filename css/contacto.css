@@ -240,7 +240,11 @@
 }
 
 .img-redes {
-    transition: transform 0.2s;
+    transition: transform 0.2s; 
+}
+
+.img-redes img {
+    width: 40%;
 }
 
 .img-redes:hover {
@@ -416,6 +420,11 @@
     .div-form-button {
         justify-content: center;
         margin-bottom: 5rem;
+    }
+
+    .img-redes img {
+        width: 40%;
+        margin-left: 2rem;
     }
 
     .exi-mobile {
