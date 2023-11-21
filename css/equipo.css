@@ -677,7 +677,7 @@
     }
 
     .img-equipo2 {
-        width: 97vw;
+        width: 100%;
     }
 
     .title-frase {
@@ -696,6 +696,45 @@
     .nuestro-text {
         margin-left: 10%;
         width: 80%;
+    }
+
+    .carousel-container {
+        position: relative;
+        overflow: hidden;
+        width: 85%;
+        margin: 50px auto;
+    }
+    
+    .carousel-wrapper {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    .carousel-slide {
+        min-width: 100%;
+        box-sizing: border-box;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .carousel-prev,
+    .carousel-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 20px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        outline: none;
+    }
+    
+    .carousel-prev {
+        left: 0px;
+    }
+    
+    .carousel-next {
+        right: 0px;
     }
 
     .carrousel {

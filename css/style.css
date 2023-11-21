@@ -609,13 +609,13 @@
         position: relative;
         width: 100%;
         overflow: hidden;
-        top: 0;
+        top: 4rem;
         z-index: -1;
-        height: 70vh;
+        height: 65vh;
     }
 
     .title-home h1 {
-        transform: translateY(26vh);
+        transform: translateY(24vh);
         left: 2rem;
         width: 80%;
     }
@@ -776,6 +776,11 @@
       .title-novedades {
         margin-left: 10%;
         margin-top: 3rem;
+        margin-bottom: -1rem;
+      }
+
+      .button-novedades {
+        margin-top: -5rem;
       }
 
       .marcas-mobile {

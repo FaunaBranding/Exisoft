@@ -394,6 +394,10 @@
     display: none;
 }
 
+.on-flex-mobile {
+    display: none;
+}
+
 @media (max-width:1600px) {
     .nav-list {
         padding-top: 10rem;
@@ -479,6 +483,23 @@
 
     .nav-home {
         background: #000;
+    }
+
+    .on-flex-mobile {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .button-novedades {
+        text-decoration: none;
+        font-size: 16px;
+        color: #fff;
+        background: #0056D5;
+        padding: 0.7rem 2rem 0.7rem 2rem;
+        border-radius: 20px;
+        font-weight: 700;
+        margin-bottom: 3rem;
+        margin-top: 3rem;
     }
 
     .background {

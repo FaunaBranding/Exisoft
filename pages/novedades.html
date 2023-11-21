@@ -42,7 +42,7 @@
     <main>
         <h4 class="novedades-title">Te contamos lo último en tendencias IT, notas de interés, eventos en los
             que participamos y nuestros proyectos de investigación y desarrollo.</h4>
-        <div class="cards-novedades">
+        <div class="cards-novedades" id="cards">
                 <div class="card-nov" onclick="nov1()">
                     <img src="../img/novedades/cards/CARD2.jpg" alt="novedades exisoft">
                     <p class="date-card-nov">02.2023</p>
@@ -61,7 +61,7 @@
                     <h3 class="title-card-nov">Open Banking: La modernización de las tecnologías financieras</h3>
                     <p class="p-card-nov">Un nuevo paradigma en relación a la información que le puede permitir a las entidades contar con la posibilidad de ofrecer productos acordes a cada cliente de manera más ágil y segura.</p>
                 </div>
-                <div class="card-nov" onclick="nov4()">
+                <div class="card-nov hidden-mobile" onclick="nov4()">
                     <img src="../img/novedades/cards/CARD3.jpg" alt="novedades exisoft">
                     <p class="date-card-nov">01.2023</p>
                     <h3 class="title-card-nov">Ventajas de implementar DevOps en tu empresa</h3>
@@ -69,17 +69,21 @@
                 </div>
         </div>
         <div class="cards-novedades">
-            <div class="card-nov" onclick="nov5()">
+            <div class="card-nov hidden-mobile" onclick="nov5()">
                 <img src="../img/novedades/cards/CARD5.jpg" alt="novedades exisoft">
                 <p class="date-card-nov">12.2022</p>
                 <h3 class="title-card-nov">Modernización de aplicaciones: el método Exisoft</h3>
                 <p class="p-card-nov">En Exisoft, desarrollamos una metodología propia que consta de una etapa de diagnóstico y 4 fases.</p>
             </div>
-            <div class="card-nov" onclick="nov6()">
+            <div class="card-nov hidden-mobile" onclick="nov6()">
                 <img src="../img/novedades/cards/CARD6.jpg" alt="novedades exisoft">
                 <p class="date-card-nov">10.2022</p>
                 <h3 class="title-card-nov">Hiperautomatización: Democratización de la IA y la importancia del Nuevo Cliente Digital</h3>
                 <p class="p-card-nov">Dos conceptos que si bien pueden entenderse por separado, hoy en día resulta imprescindible vincularlos.</p>
+            </div>
+            <div class="on-flex-mobile">
+                <a class="select" href="#cards">1</a>
+                <a href="">2</a>
             </div>
     </div>
     </main>

@@ -115,7 +115,7 @@
         <div class="nuestro-equipo">
             <h2 class="nuestro-title light">NUESTRO EQUIPO</h2>
             <p class="nuestro-text">Creamos equipos con alto grado de especialización para asistir de manera cercana a nuestros clientes, capacitados para adaptarse a los nuevos desafíos que propone la evolución digital.</p>
-            <div class="fotos-equipo">
+            <div class="fotos-equipo hidden-mobile">
                 <div class="fotos-row">
                     <img src="../img/equipo2/4.png" alt="FLORENCIA DE SAN FELIX">
                     <img src="../img/equipo2/5.png" alt="MARTÍN FACAL">
@@ -133,6 +133,23 @@
                     <img src="../img/equipo2/9.png" alt="JOHAN MALAVE">
                     <img src="../img/equipo2/11.png" alt="IGNACIO ALONSO">
                 </div>
+            </div>
+            <div class="carousel-container on-mobile">
+                <div class="carousel-wrapper">
+                    <img class="carousel-slide" id="slide1" src="../img/equipo2/4.png"></img>
+                    <img class="carousel-slide" id="slide2" src="../img/equipo2/5.png"></img>
+                    <img class="carousel-slide" id="slide3" src="../img/equipo2/3.png"></img>
+                    <img class="carousel-slide" id="slide4" src="../img/equipo2/2.png"></img>
+                    <img class="carousel-slide" id="slide5" src="../img/equipo2/8.png"></img>
+                    <img class="carousel-slide" id="slide6" src="../img/equipo2/1.png"></img>
+                    <img class="carousel-slide" id="slide7" src="../img/equipo2/7.png"></img>
+                    <img class="carousel-slide" id="slide8" src="../img/equipo2/6.png"></img>
+                    <img class="carousel-slide" id="slide9" src="../img/equipo2/10.png"></img>
+                    <img class="carousel-slide" id="slide10" src="../img/equipo2/9.png"></img>
+                    <img class="carousel-slide" id="slide11" src="../img/equipo2/11.png"></img>
+                </div>
+                <button class="carousel-prev" onclick="prevSlide()">❮</button>
+                <button class="carousel-next" onclick="nextSlide()">❯</button>
             </div>
             <div class="carrousel-equipo">
                 <div class="carrousel position"></div>
@@ -193,5 +210,6 @@
     </footer>
     <script src="../js/script.js"></script>
     <script src="../js/sumate.js"></script>
+    <script src="../js/carrousel-equipo.js"></script>
 </body>
 </html>
