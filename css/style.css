@@ -205,6 +205,10 @@
     transition: transform 0.3s;
 }
 
+.card-integracion {
+    padding: 4rem 5.5rem 4rem 5.5rem;
+}
+
 .card:hover {
     transform: scale(1.02);
 }
@@ -609,7 +613,7 @@
     .video-container {
         width: 100%;
         overflow: hidden;
-        top: 0;
+        top: 0rem;
         z-index: -1;
         height: 65vh;
     }
