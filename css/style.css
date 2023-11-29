@@ -556,6 +556,12 @@
         height: 65vh;
     }
 
+    .marcas-home img {
+        display: inline-block;
+        height: auto;
+        width: 100%;
+    }
+
     @keyframes slideLeft {
         0% {
             transform: translateX(0%);
@@ -567,6 +573,10 @@
     }
 
     .hidden-responsive {
+        display: none;
+    }
+
+    .on-mobile {
         display: none;
     }
 
