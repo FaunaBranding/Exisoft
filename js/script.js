@@ -60,7 +60,7 @@ function sistemas() {
   window.location.href = './pages/novedades/sistemas.html';
 }
 
-function integracion() {
+function integracionHome() {
   window.location.href = './pages/novedades/integracion.html';
 }
 
