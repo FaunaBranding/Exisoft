@@ -244,7 +244,7 @@
 }
 
 .img-redes img {
-    width: 40%;
+    width: 3rem;
 }
 
 .img-redes:hover {
@@ -423,8 +423,7 @@
     }
 
     .img-redes img {
-        width: 40%;
-        margin-left: 2rem;
+        width: 3rem;
     }
 
     .exi-mobile {
