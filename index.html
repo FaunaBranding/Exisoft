@@ -134,6 +134,12 @@
         <div class="novedades-home">
             <h2 class="title-novedades light">NOVEDADES</h2>
             <div class="cards-novedades hidden-mobile">
+                <div class="card-nov hidden-mobile" onclick="inteligencia()">
+                    <img src="./img/novedades/cards/CARD0.jpg" alt="novedades exisoft">
+                    <p class="date-card-nov">01.2024</p>
+                    <h3 class="title-card-nov">La Poderosa Alianza de la Inteligencia Artificial y la Automatización</h3>
+                    <p class="p-card-nov">Exploraremos cómo la convergencia de la IA y la automatización redefinen nuestra operatividad y capacidad de liderar en un entorno de innovación constante.</p>
+                </div>
                 <div class="card-nov" onclick="integracionHome()">
                     <img src="./img/novedades/cards/CARD2.jpg" alt="novedades exisoft">
                     <p class="date-card-nov">02.2023</p>
@@ -152,17 +158,19 @@
                     <h3 class="title-card-nov">Open Banking: La modernización de las tecnologías financieras</h3>
                     <p class="p-card-nov">Un nuevo paradigma en relación a la información que le puede permitir a las entidades contar con la posibilidad de ofrecer productos acordes a cada cliente de manera más ágil y segura.</p>
                 </div>
-                <div class="card-nov hidden-mobile" onclick="devops()">
-                    <img src="./img/novedades/cards/CARD3.jpg" alt="novedades exisoft">
-                    <p class="date-card-nov">01.2023</p>
-                    <h3 class="title-card-nov">Ventajas de implementar DevOps en tu empresa</h3>
-                    <p class="p-card-nov">Los equipos adquieren la capacidad de responder mejor a las necesidades de los clientes, aumentar la confianza en las aplicaciones que crean y alcanzar los objetivos empresariales en menos tiempo.</p>
-                </div>
             </div>
             <div class="carousel-container on-mobile">
                 <div class="carousel-wrapper">
                     <div class="carousel-slide">
-                        <div class="card-nov" id="slide1" onclick="integracion()">
+                        <div class="card-nov" id="slide1" onclick="inteligencia()">
+                            <img src="./img/novedades/cards/CARD0.jpg" alt="novedades exisoft">
+                            <p class="date-card-nov">01.2024</p>
+                            <h3 class="title-card-nov">La Poderosa Alianza de la Inteligencia Artificial y la Automatización</h3>
+                            <p class="p-card-nov">Exploraremos cómo la convergencia de la IA y la automatización redefinen nuestra operatividad y capacidad de liderar en un entorno de innovación constante.</p>
+                        </div>
+                    </div>  
+                    <div class="carousel-slide">
+                        <div class="card-nov" id="slide2" onclick="integracion()">
                             <img src="./img/novedades/cards/CARD2.jpg" alt="novedades exisoft">
                             <p class="date-card-nov">02.2023</p>
                             <h3 class="title-card-nov">Integración de negocios: Claves para una transformación digital exitosa</h3>
@@ -170,7 +178,7 @@
                         </div>
                     </div>
                     <div class="carousel-slide">
-                        <div class="card-nov" id="slide2" onclick="sistemas()">
+                        <div class="card-nov" id="slide3" onclick="sistemas()">
                             <img src="./img/novedades/cards/CARD1.jpg" alt="novedades exisoft">
                             <p class="date-card-nov">02.2023</p>
                             <h3 class="title-card-nov">Modernización de aplicaciones: De los sistemas monolíticos a los microservicios</h3>
@@ -178,21 +186,13 @@
                         </div>
                     </div>
                     <div class="carousel-slide">
-                        <div class="card-nov" id="slide3" onclick="openbanking()">
+                        <div class="card-nov" id="slide4" onclick="openbanking()">
                             <img src="./img/novedades/cards/CARD4.jpg" alt="novedades exisoft">
                             <p class="date-card-nov">01.2023</p>
                             <h3 class="title-card-nov">Open Banking: La modernización de las tecnologías financieras</h3>
                             <p class="p-card-nov">Un nuevo paradigma en relación a la información que le puede permitir a las entidades contar con la posibilidad de ofrecer productos acordes a cada cliente de manera más ágil y segura.</p>
                         </div>
                     </div>
-                        <div class="carousel-slide">
-                            <div class="card-nov" id="slide4" onclick="devops()">
-                                <img src="./img/novedades/cards/CARD3.jpg" alt="novedades exisoft">
-                                <p class="date-card-nov">01.2023</p>
-                                <h3 class="title-card-nov">Ventajas de implementar DevOps en tu empresa</h3>
-                                <p class="p-card-nov">Los equipos adquieren la capacidad de responder mejor a las necesidades de los clientes, aumentar la confianza en las aplicaciones que crean y alcanzar los objetivos empresariales en menos tiempo.</p>
-                            </div>
-                        </div>  
                 </div>
             
                 <button class="carousel-prev" onclick="prevSlide()">❮</button>

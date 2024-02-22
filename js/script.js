@@ -56,6 +56,10 @@ function hideText() {
   overlay.style.opacity = "0";
 }
 
+function inteligencia() {
+  window.location.href = './pages/novedades/inteligencia.html';
+}
+
 function sistemas() {
   window.location.href = './pages/novedades/sistemas.html';
 }
@@ -98,6 +102,10 @@ function nov5() {
 
 function nov6() {
   window.location.href = './novedades/hiperautomatizacion.html';
+}
+
+function inteligenciaNov() {
+  window.location.href = './inteligencia.html';
 }
 
 function integracionNov() {

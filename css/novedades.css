@@ -263,6 +263,10 @@
     margin-left: 2rem;
 }
 
+.card-0 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/novedades/cards/CARD0.jpg");
+}
+
 .card-1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/novedades/cards/CARD1.jpg");
 }
