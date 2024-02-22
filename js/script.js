@@ -72,6 +72,10 @@ function devops() {
   window.location.href = './pages/novedades/devops.html';
 }
 
+function nov0() {
+  window.location.href = './novedades/inteligencia.html';
+}
+
 function nov1() {
   window.location.href = './novedades/integracion.html';
 }
