@@ -56,6 +56,10 @@ function hideText() {
   overlay.style.opacity = "0";
 }
 
+function eficiencia() {
+  window.location.href = './pages/novedades/eficiencia.html';
+}
+
 function inteligencia() {
   window.location.href = './pages/novedades/inteligencia.html';
 }
@@ -74,6 +78,10 @@ function openbanking() {
 
 function devops() {
   window.location.href = './pages/novedades/devops.html';
+}
+
+function nov7() {
+  window.location.href = './novedades/eficiencia.html';
 }
 
 function nov0() {

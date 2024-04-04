@@ -151,6 +151,11 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/novedades/cards/PORTADA6.jpg");
 }
 
+.eficiencia {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/novedades/cards/HEADER7.jpg");
+}
+
+
 .title-home {
     color: #fff;
     font-size: 1.5rem;
