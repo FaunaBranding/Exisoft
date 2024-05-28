@@ -159,6 +159,10 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/novedades/cards/HEADER7.jpg");
 }
 
+.transformacion {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/novedades/cards/PORTADA9.jpg");
+}
+
 
 .title-home {
     color: #fff;

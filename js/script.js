@@ -56,6 +56,10 @@ function hideText() {
   overlay.style.opacity = "0";
 }
 
+function transformacion() {
+  window.location.href = './pages/novedades/transformacion.html';
+}
+
 function observabilidad() {
   window.location.href = './pages/novedades/observabilidad.html';
 }
@@ -82,6 +86,10 @@ function openbanking() {
 
 function devops() {
   window.location.href = './pages/novedades/devops.html';
+}
+
+function nov9() {
+  window.location.href = './novedades/transformacion.html';
 }
 
 function nov8() {
